@@ -9,12 +9,12 @@
   <link rel="stylesheet" href="/style.css"> 
  </head>
  <body>
-  <?php include($_SERVER['DOCUMENT_ROOT'].'/sidebar.html'); ?>
+  {{ partial "sidebar/sidebar_pano.html" . }}
   <div id="content">
    <t1> Error - 404 </t1><br>
    <p color="red"> You requested a file that doesn't exist. </p><br>
    <p color="green"> Because this website isn't finished, I just probably haven't created this page yet.</p><br>
   </div>
-  <?php include($_SERVER['DOCUMENT_ROOT'].'/footer.html'); ?>
+  {{ partial "footer/footer.html" . }}
  </body>
 </html> 
