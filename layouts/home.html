@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="style.css"> 
  </head>
  <body>
-  <!--<?php include($_SERVER['DOCUMENT_ROOT'].'/sidebar.html'); ?>-->
+  {{ partial "sidebar/sidebar_pano.html" . }}
   <div id="content">
    <t1> welcome </t1><br>
    <p> I mainly use this website to show off my personal exploits in photography and engineering, though I sometimes post interesting things I've done for work and school. </p>
@@ -34,6 +34,6 @@
     </span>
    </a>
   </div> 
-  <!--<?php include($_SERVER['DOCUMENT_ROOT'].'/footer.html'); ?>-->
+  {{ partial "footer/site-footer.html" . }}
  </body>
 </html> 
