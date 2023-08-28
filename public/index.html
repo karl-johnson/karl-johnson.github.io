@@ -7,6 +7,7 @@ draft: true
 <!doctype html>
 <html>
  <head>
+	<meta name="generator" content="Hugo 0.117.0">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title>Karl Johnson - Home</title>
   <link rel="shortcut icon" type="image/png" href="format_images/title_icon.png" />
@@ -15,7 +16,39 @@ draft: true
   <link rel="stylesheet" href="style.css"> 
  </head>
  <body>
-  {{ partial "sidebar/sidebar_pano.html" . }}
+    <div id="sidebar">
+   <a href="/">
+    <div class="h-icon">
+     <img src="/format_images/logo_home_light_small.png">
+     <span class="side-text"></span>
+    </div>
+   </a>
+   <a href="/photos/Panoramas">
+    <div class="icon">
+     <img src="/format_images/logo_pano_light_small.png">
+     <span class="side-text">Panoramas</span>
+    </div>
+   </a>
+   <a href="/photos/">
+    <div class="icon">
+     <img src="/format_images/logo_photo_light_small.png">
+     <span class="side-text">Photos</span>
+    </div>
+   </a>
+   <a href="/projects/">
+    <div class="icon">
+     <img src="/format_images/logo_tech_light_small.png">
+     <span class="side-text">Projects</span>
+    </div>
+   </a>
+   <a href="/contact/">
+    <div class="icon">
+     <img src="/format_images/logo_about_light_small.png">
+     <span class="side-text">About</span>
+    </div>
+   </a>
+  </div>
+
   <div id="content">
    <t1> welcome </t1><br>
    <p> I mainly use this website to show off my personal exploits in photography and engineering, though I sometimes post interesting things I've done for work and school. </p>
@@ -23,23 +56,25 @@ draft: true
   <div id="grid">
    <a href="projects/20201201-panoramic-head">
     <span id="banner-thumbnail">
-     <img src="{{ $.Site.Params.staticURL }}projects/bluetoothThumbnail.jpg">
+     <img src="projects/bluetoothThumbnail.jpg">
      <span>Featured: Motorized Panoramic Tripod Head!</span>
     </span>
    </a>
    <a href="photos/">
     <span id="banner-thumbnail">
-     <img src="{{ $.Site.Params.staticURL }}photos/Nature/20180901_thumb-60.jpg">
+     <img src="photos/Nature/20180901_thumb-60.jpg">
      <span> go to photos</span>
     </span>
    </a>
    <a href="projects/">
     <span id="banner-thumbnail">
-     <img src="{{ $.Site.Params.staticURL }}coming-soon/28-135_thumb.jpg">
+     <img src="coming-soon/28-135_thumb.jpg">
      <span> go to projects</span>
     </span>
    </a>
   </div> 
-  {{ partial "footer/footer.html" . }}
+    <div id="footer">
+   <p> <b>&#169; 2018-2023 Karl Johnson</b> </p>
+  </div>
  </body>
 </html> 

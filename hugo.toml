@@ -1,3 +1,5 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Karl Johnson'
+[params]
+  staticURL = 'http://ka.rljohnson.net/'
