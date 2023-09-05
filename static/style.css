@@ -389,3 +389,10 @@ body {
 #return-fullwidth:hover img{
     filter:brightness(0);
 }
+#panorama {
+    width: 90%; /* fallback */
+    width: calc(100% - 50px);
+    height: calc(100% - 50px);
+    /* margin-top: 50px; */
+    margin-left: 50px;
+}

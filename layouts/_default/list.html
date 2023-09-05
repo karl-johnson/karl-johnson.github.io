@@ -1,0 +1,16 @@
+{{ define "main"}}
+    {{ .Content}}
+    <div id="content">
+        <div id="grid">
+            {{ range .Pages}}
+                <a href="{{.RelPermalink}}">
+                    <span id="thumbnail">
+                        <img src="{{.Params.Thumbnail}}">
+                        <span> {{.Description}} <br> ({{.Params.Resolution}})</span>
+                        {{ printf "%#v" .RelPermalink }}
+                    </span>
+                </a>
+            {{end}}
+        </div>
+    </div>
+{{ end }}

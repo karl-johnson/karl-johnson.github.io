@@ -1,0 +1,45 @@
+{{ define "style"}}
+<style>
+    html, body {
+        height: 100%;
+        overflow: hidden;
+    }
+    #panorama {
+        width: 90%; /* fallback */
+        width: calc(100% - 50px);
+        height: calc(100% - 50px);
+        /* margin-top: 50px; */
+        margin-left: 50px;
+    }
+</style>
+{{ end }}
+
+{{ define "main"}}
+    <style>
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+        #panorama {
+            width: 90%; /* fallback */
+            width: calc(100% - 50px);
+            height: calc(100% - 50px);
+            /* margin-top: 50px; */
+            margin-left: 50px;
+        }
+    </style>
+    
+    {{ partial "return/return.html" . }}
+    <div id="panorama"></div>
+    <script src="/openseadragon/openseadragon.js"></script>
+    <script src="/openseadragon/openseadragon-bookmark-url.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "panorama",
+            prefixUrl: "/openseadragon/images/",
+            tileSources: "{{ $.Site.Params.staticURL }}{{.Params.dzi}}",
+            showNavigator:  true
+        });
+        viewer.bookmarkUrl();
+    </script>
+{{ end }}
