@@ -2,98 +2,128 @@
   # ignored: 2018092, 20181016, 20190414, 20190601
   # 20200201, 20200309, 20201003, 20201218
   # 20210704, 20210828, 20220717
+  # path AFTER the staticURL path used by the rest of Hugo
+  panoPath: photos/Panoramas
   panoramas:
-    - 20180901
+    - 
+      date: 20180901
       title: "Crested Butte"
       resolution: 125000000
-    - 20181007
-      title: "Rampary Range Road"
+    - 
+      date: 20181007
+      title: "Rampart Range Road"
       resolution: 97000000
-    - 20190515
+    - 
+      date: 20190515
       title: "Garden of the Gods"
       resolution: 157000000
-    - 20191230
+    - 
+      date: 20191230
       title: "Point Loma"
       resolution: 700000000
-    - 20200102
+    - 
+      date: 20200102
       title: "San Diego Bay"
       resolution: 129000000
-    - 20200927
+    - 
+      date: 20200927
       title: "Pulpit Rock"
       resolution: 1270000000
-    - 20201008
+    - 
+      date: 20201008
       title: "Red Rock Ridge"
       resolution: 437000000
       dziPath: "dzc_output.xml:"
-    - 20201113
+    - 
+      date: 20201113
       title: "Downtown Denver"
       resolution: 1000000000
-    - 20201121
+    - 
+      date: 20201121
       title: "Downtown Colorado Springs"
       resolution: 343000000
-    - 20201125
+    - 
+      date: 20201125
       title: "Puplit Rock Moonrise"
       resolution: 240000000
-    - 20201204
+    - 
+      date: 20201204
       title: "Boulder Day/Night"
       resolution: 700000000
       isDayNight: true
       dayPath: "20201204d_1022/20201204d_1022.dzi"
       nightPath: "20201204n_1022/20201204n_1022.dzi"
-    - 20201205
+    - 
+      date: 20201205
       title: "Palmer Park"
       resolution: 4000000000
-    - 20201217
+    - 
+      date: 20201217
       title: "Centennial Ridge"
       resolution: 8000000000
       is360: true
-    - 20201227
+    - 
+      date: 20201227
       title: "Big Bend"
       resolution: 651000000
-    - 20201231
+    - 
+      date: 20201231
       title: "Pikes Peak Fireworks"
       resolution: 512000000
-    - 20210223
+    - 
+      date: 20210223
       title: "Peregrine Overlook"
       resolution: 12000000000
-    - 20210227
+    - 
+      date: 20210227
       title: "Grandview Overlook"
       resolution: 9000000000
-    - 20210307
+    - 
+      date: 20210307
       title: "Air Force Academy Airfield"
       resolution: 7000000000
-    - 20210327
+    - 
+      date: 20210327
       title: "Iron Mountain"
       resolution: 12500000000
-    - 20210612
+    - 
+      date: 20210612
       title: "Denver Skyline"
       resolution: 995097600
-    - 20210618
+    - 
+      date: 20210618
       title: "Lincoln Lake"
       resolution: 2.5e9
-    - 20210705
+    - 
+      date: 20210705
       title: "Mount Almagre"
       resolution: 4.5e9
-    - 20210710
+    - 
+      date: 20210710
       title: "Pikes Peak Cog Railway"
       resolution: 4.25e9
-    - 20210713
+    - 
+      date: 20210713
       title: "Las Vegas"
       resolution: 5.7e9
-    - 20210715
+    - 
+      date: 20210715
       title: "San Diego Harbor Island Day/Night"
       resolution: 1.7e9
       isDayNight: true
       dayPath: "20210715_day.dzi"
       nightPath: "20210715_night.dzi"
-    - 20210722
+    - 
+      date: 20210722
       title: "UCSD Sixth College"
       resolution: 2930044092
       is360: true
-    - 20210910
+    - 
+      date: 20210910
       title: "Downtown San Diego"
       resolution: 6.3e9
-    - 20211002
+    - 
+      date: 20211002
       # panorama date implies path for this panorama
       # title is mandatory
       title: "Mount Muscoco"
@@ -112,29 +142,36 @@
       browser: "BOTTOM_RIGHT"
       # disableNav:  
       # is360:
-    - 20211023
+    - 
+      date: 20211023
       title: "Black Mountain"
       resolution: 1384455886
       dziPath: 20211023/20211023.dzi
-    - 20211119
+    - 
+      date: 20211119
       title: "UCSD Geisel Library"
       resolution: 273000000
-    - 20220117
+    - 
+      date: 20220117
       title: "Culp Valley"
       resolution: 3937708908
-    - 20220820
+    - 
+      date: 20220820
       title: "UCSD Seventh College"
       resolution: 3.7e9
-    - 20220912
+    - 
+      date: 20220912
       title: "Mount Muscoco"
       resolution: 2.05e10
-    - 20221125
+    - 
+      date: 20221125
       title: "Buttermilk Boulders"
       resolution: 4e9
-    - 20230610
+    - 
+      date: 20230610
       title: "Yonder Dynamics @ URC"
       resolution: 146420664
-    - 20230616
+    - 
+      date: 20230616
       title: "Mount Soledad"
       resolution: 2e9
-    
