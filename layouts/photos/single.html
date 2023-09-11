@@ -30,15 +30,28 @@
     </style>
     
     {{ partial "return/return.html" . }}
+    {{ $tileSrcs1 := "NONE"}}
+    {{ $tileSrcs2 := "NONE"}}
+    {{ if .Params.isDayNight}}
+        {{ $tileSrcs1 = .Params.dayPath }}
+        {{ $tileSrcs2 = .Params.nightPath }}
+    {{ else }}
+        {{ $tileSrcs1 = .Params.dziPath }}
+        {{ $tileSrcs2 = .Params.dziPath }}
+    {{ end }}
+    
     <div id="panorama"></div>
     <script src="/openseadragon/openseadragon.js"></script>
     <script src="/openseadragon/openseadragon-bookmark-url.js"></script>
     <script type="text/javascript">
         var viewer = OpenSeadragon({
             id: "panorama",
-            prefixUrl: "/openseadragon/images/",
-            tileSources: "{{ $.Site.Params.staticURL }}{{.Params.dzi}}",
-            showNavigator:  true
+            prefixUrl: "/openseadragon/images-day-night/",
+            tileSources: ["{{$.Site.Params.staticURL}}{{$tileSrcs1}}","{{$.Site.Params.staticURL}}{{$tileSrcs2}}"],
+            showNavigator:  "{{.Params.enableNav}}",
+            sequenceMode: "{{.Params.isDayNight}}",
+            navigatorPosition: "{{.Params.browserLoc}}",
+            preserveViewport: true
         });
         viewer.bookmarkUrl();
     </script>

@@ -3,16 +3,20 @@
   # 20200201, 20200309, 20201003, 20201218
   # 20210704, 20210828, 20220717
   # path AFTER the staticURL path used by the rest of Hugo
-  panoPath: photos/Panoramas
+  panoPath: photos/Panoramas/
   panoramas:
     - 
       date: 20180901
       title: "Crested Butte"
       resolution: 125000000
+      thumbnail: "20180901-58.jpg"
+      dziPath: "dzc_output.xml"
     - 
       date: 20181007
       title: "Rampart Range Road"
       resolution: 97000000
+      thumbnail: "20181007_thumb-6.jpg"
+      dziPath: "dzc_output.xml"
     - 
       date: 20190515
       title: "Garden of the Gods"
@@ -33,11 +37,13 @@
       date: 20201008
       title: "Red Rock Ridge"
       resolution: 437000000
-      dziPath: "dzc_output.xml:"
+      dziPath: "dzc_output.xml"
+      thumbnail: "20201008_planar_thumb.jpg"
     - 
       date: 20201113
       title: "Downtown Denver"
       resolution: 1000000000
+      thumbnail: "20201113_thumb.jpg"
     - 
       date: 20201121
       title: "Downtown Colorado Springs"
@@ -50,6 +56,7 @@
       date: 20201204
       title: "Boulder Day/Night"
       resolution: 700000000
+      thumbnail: "20201204_thumb.png"
       isDayNight: true
       dayPath: "20201204d_1022/20201204d_1022.dzi"
       nightPath: "20201204n_1022/20201204n_1022.dzi"
@@ -74,6 +81,7 @@
       date: 20210223
       title: "Peregrine Overlook"
       resolution: 12000000000
+      thumbnail: "20210223_thumb.png"
     - 
       date: 20210227
       title: "Grandview Overlook"
@@ -126,20 +134,19 @@
       date: 20211002
       # panorama date implies path for this panorama
       # title is mandatory
-      title: "Mount Muscoco"
+      title: "UCSD Jacobs Hall"
       # resolution is mandatory, not ez to compute at build time
       resolution: 7633306336
       # optional params:
-      isDayNight: true
-      # if isDayNight is true, will need these:
+      # must have both, any dziPath will be ignored
       dayPath: 20211002_d.dzi
-      nightPath: 20211002_d.dzi
+      nightPath: 20211002_n.dzi
       # default dzi path is [date]/[date].dzi, if not:
       # dziPath: 
       # default thumbnail is [date]_thumb.jpg, if not:
       # thumbnail: 
       # default browser location is top-right, if not:
-      browser: "BOTTOM_RIGHT"
+      browserLoc: "BOTTOM_RIGHT"
       # disableNav:  
       # is360:
     - 
