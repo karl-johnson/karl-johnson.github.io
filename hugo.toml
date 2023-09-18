@@ -3,4 +3,4 @@ languageCode = 'en-us'
 title = 'Karl Johnson'
 disablePathToLower = true
 [params]
-  staticURL = 'http://ka.rljohnson.net/'
+  staticURL = 'https://ka.rljohnson.net/'
