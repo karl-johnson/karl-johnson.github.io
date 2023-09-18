@@ -21,18 +21,22 @@
       date: 20190515
       title: "Garden of the Gods"
       resolution: 157000000
+      dziPath: "20190515_full.xml"
     - 
       date: 20191230
       title: "Point Loma"
       resolution: 700000000
+      dziPath: "dzc_output.xml"
     - 
       date: 20200102
       title: "San Diego Bay"
       resolution: 129000000
+      dziPath: "dzc_output.xml"
     - 
       date: 20200927
       title: "Pulpit Rock"
       resolution: 1270000000
+      dziPath: "Pulpit-full.xml"
     - 
       date: 20201008
       title: "Red Rock Ridge"
@@ -44,14 +48,17 @@
       title: "Downtown Denver"
       resolution: 1000000000
       thumbnail: "20201113_thumb.jpg"
+      dziPath: "Combined28and135_full.xml"
     - 
       date: 20201121
       title: "Downtown Colorado Springs"
       resolution: 343000000
+      dziPath: "20201121DowntownPartial.xml"
     - 
       date: 20201125
       title: "Puplit Rock Moonrise"
       resolution: 240000000
+      dziPath: "PulpitMoonrise.xml"
     - 
       date: 20201204
       title: "Boulder Day/Night"
@@ -64,24 +71,29 @@
       date: 20201205
       title: "Palmer Park"
       resolution: 4000000000
+      dziPath: "PalmerPanoFull/PalmerPanoFull.dzi"
     - 
       date: 20201217
       title: "Centennial Ridge"
       resolution: 8000000000
       is360: true
+      dziPath: "Centennial/Centennial.dzi"
     - 
       date: 20201227
       title: "Big Bend"
       resolution: 651000000
+      dziPath: "ChaosBoulderPanorama/ChaosBoulderPanorama.dzi"
     - 
       date: 20201231
       title: "Pikes Peak Fireworks"
       resolution: 512000000
+      dziPath: "PikesPeakFireworks/PikesPeakFireworks.dzi"
     - 
       date: 20210223
       title: "Peregrine Overlook"
       resolution: 12000000000
       thumbnail: "20210223_thumb.png"
+      dziPath: "20210220_1022/20210220_1022.dzi"
     - 
       date: 20210227
       title: "Grandview Overlook"
@@ -98,6 +110,7 @@
       date: 20210612
       title: "Denver Skyline"
       resolution: 995097600
+      dziPath: "20210612/20210612.dzi"
     - 
       date: 20210618
       title: "Lincoln Lake"
