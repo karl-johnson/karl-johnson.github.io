@@ -4,13 +4,17 @@ import os
 from sigfig import round
 
 def num_fmt(n: float, sf: int = 3) -> str:
+
+    
+    # return f"{n:.0f}"
+    # this is broken, maybe fix later
     """
     https://stackoverflow.com/questions/66895001/how-do-i-suppress-scientific-notation-while-controlling-significant-figures-in-p
     Returns number as a formatted string with specified number of significant figures
     :param n: number to format
     :param sf: number of sig figs in output
     """
-    r = f'{n:.{sf}}'  # use existing formatter to get to right number of sig figs
+    r = f'{n:#.{sf}}'  # use existing formatter to get to right number of sig figs
     if 'e' in r:
         # for big numbers, strip scientific notation and pad with zeros
         exp = int(r[-2:])
@@ -47,7 +51,6 @@ for item in yaml_list['panoramas']:
         raise Exception("No resolution for the entry" + str(item))
     #
     thisResString = getResString(item['resolution'])
-    print(thisResString)
     thisPath = os.path.join(outputPath, str(thisDate))
     thisFile = os.path.join(thisPath, 'index.html')
     # if there is a thumbnail specified, override date_thumb.jpg
@@ -84,6 +87,7 @@ for item in yaml_list['panoramas']:
                              "draft: false",
                              f"description: {item['title']}",
                              "resolution: " + thisResString,
+                             f"weight: {item['resolution']}",
                              "thumbnail: " + thisThumbnail,
                              "enableNav: " + thisEnableNav,
                              "browserLoc: " + thisBrowserLoc,

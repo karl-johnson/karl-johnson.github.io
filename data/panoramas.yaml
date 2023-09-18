@@ -98,23 +98,27 @@
       date: 20210227
       title: "Grandview Overlook"
       resolution: 9000000000
+      dziPath: "20210227_1022/20210227_1022.dzi"
     - 
       date: 20210307
       title: "Air Force Academy Airfield"
       resolution: 7000000000
+      dziPath: "20210307_1022/20210307_1022.dzi"
     - 
       date: 20210327
       title: "Iron Mountain"
       resolution: 12500000000
+      dziPath: "20210327_1022/20210327_1022.dzi"
     - 
       date: 20210612
       title: "Denver Skyline"
-      resolution: 995097600
+      resolution: 990097600
       dziPath: "20210612/20210612.dzi"
     - 
       date: 20210618
       title: "Lincoln Lake"
       resolution: 2.5e9
+      dziPath: "20210618/20210618.dzi"
     - 
       date: 20210705
       title: "Mount Almagre"
@@ -157,7 +161,7 @@
       # default dzi path is [date]/[date].dzi, if not:
       # dziPath: 
       # default thumbnail is [date]_thumb.jpg, if not:
-      # thumbnail: 
+      thumbnail: 20211002_thumb.png
       # default browser location is top-right, if not:
       browserLoc: "BOTTOM_RIGHT"
       # disableNav:  
@@ -171,6 +175,7 @@
       date: 20211119
       title: "UCSD Geisel Library"
       resolution: 273000000
+      dziPath: 20211119/20211119.dzi
     - 
       date: 20220117
       title: "Culp Valley"

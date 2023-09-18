@@ -2,7 +2,7 @@
     {{ .Content}}
     <div id="content">
         <div id="grid">
-            {{ range .Pages}}
+            {{ range .Pages.ByWeight.Reverse}}
                 <a href="{{.RelPermalink}}">
                     <span id="thumbnail">
                         <img src="{{ $.Site.Params.staticURL }}{{.Params.Thumbnail}}">
