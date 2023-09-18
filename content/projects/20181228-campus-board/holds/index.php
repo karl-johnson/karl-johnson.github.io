@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Karl Johnson - Compact Campus Board</title>
+  <link rel="shortcut icon" type="image/png" href="/format_images/title_icon.png" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400">
+  <link rel="stylesheet" href="/style.css"> 
+ </head>
+ <body>
+  <?php include($_SERVER['DOCUMENT_ROOT'].'/sidebar.html'); ?>
+  <div id="content">
+   <t1> the holds </t1><br>
+   <p> <a href="http://ka.rljohnson.net/projects/20181228-campus-board/">(return to campus board hub)</a></p>
+   <p> Since I designed the board to accept climbing bolts, it made sense for my homemade holds to be bolted (as opposed to screwed) onto the board. Normal bolt-on holds only have one hole - because there is no standard spacing of t-nuts on climbing walls - but I designed my holds to have two holes. My board has a spacing of 4.75" both horizontally and vertically, so a hold with that spacing should be able to be mounted either way as well. This hole spacing and size is pretty much the only design restraint on the holds, but I made a CAD model of an initial hold idea anyways.</p>
+  </div>
+  <div id="grid">
+   <a href="RungCAD.png">
+    <span id="banner-thumbnail">
+     <img src="RungCAD.png">
+    </span>
+   </a>
+  </div> 
+  <div id="content">
+   <p> This hold is also designed to be flipped upside-down, so the top surface of the hold can be either horizontal or sloped 15 degrees down. Making the hold was relatively straightforward - I simply did a few cuts on a 2x4 with a table saw, drilled and counterbored some holes, then rounded the sharp edges on a belt sander. </p>
+  </div>
+  <div id="grid">
+   <a href="IMG_20181219_201726880_HDR.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181219_201726880_HDR.jpg">
+    </span>
+   </a>
+   <a href="IMG_20181219_201731106.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181219_201731106.jpg">
+    </span>
+   </a>
+   <a href="IMG_20181219_203430743.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181219_203430743.jpg">
+    </span>
+   </a>
+   <a href="IMG_20181219_210445539_HDR.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181219_210445539_HDR.jpg">
+    </span>
+   </a>
+   <a href="IMG_20181219_211339620_HDR.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181219_211339620_HDR.jpg">
+    </span>
+   </a>
+   <a href="IMG_20181219_212007126_HDR.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181219_212007126_HDR.jpg">
+    </span>
+   </a>
+   <a href="IMG_20181219_212834491.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181219_212834491.jpg">
+    </span>
+   </a>
+  </div> 
+  <div id="content">
+   <p> With this test run done, I began experimenting some more, mainly modifying the thickness and angle of the rungs. </p>
+  </div>
+  <div id="grid">
+   <a href="IMG_20181220_104647165.jpg">
+    <span id="banner-thumbnail">
+     <img src="IMG_20181220_104647165.jpg">
+    </span>
+   </a>
+  </div> 
+  <div id="content">
+   <p> I also found some 1" dowel laying around - with a careful cut on the table saw, I formed a flat side that made it possible to use this as a hold too.  </p>
+  </div>
+  <div id="grid">
+   <a href="IMG_20181220_104654340.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181220_104654340.jpg">
+    </span>
+   </a>
+   <a href="IMG_20181220_104930927.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181220_104930927.jpg">
+    </span>
+   </a>
+   <a href="IMG_20181220_164859174_HDR.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181220_164859174_HDR.jpg">
+    </span>
+   </a>
+   <a href="IMG_20181220_170629829_HDR.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181220_170629829_HDR.jpg">
+    </span>
+   </a>
+  </div> 
+  <div id="content">
+   <p> After some more sanding, I had a good number of holds to wrap up just in time for Christmas. Just for fun, I also tried soaking and bending some offcut wood into a bow. </p>
+  </div>
+  <div id="grid">
+   <a href="IMG_20181220_180353926.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181220_180353926.jpg">
+    </span>
+   </a>
+   <a href="IMG_20181220_180342934.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181220_180342934.jpg">
+    </span>
+   </a>
+   <a href="IMG_20181223_152832039_BURST000_COVER.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181223_152832039_BURST000_COVER.jpg">
+     <span> The holds, wrapped</span>
+    </span>
+   </a>
+   <a href="IMG_20181223_181042111.jpg">
+    <span id="thumbnail">
+     <img src="IMG_20181223_181042111.jpg">
+     <span> The holds and board, wrapped</span>
+    </span>
+   </a>
+  </div> 
+  <div id="content">
+   <p> However, once my brother opened the gift and we did a test mounting at home, I realized I had more changes to make... </p>
+  </div>
+   <a href="http://ka.rljohnson.net/projects/20181228-campus-board/board-part-2/">
+    <span id="banner-thumbnail">
+     <img src="http://ka.rljohnson.net/projects/20181228-campus-board/board-part-2/IMG_20190113_121645019.jpg">
+     <span> The Board - Part 2</span>
+    </span>
+   </a>
+  </div> 
+  <?php include($_SERVER['DOCUMENT_ROOT'].'/footer.html'); ?>
+ </body>
+</html> 

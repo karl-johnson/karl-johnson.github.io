@@ -84,7 +84,7 @@ for item in yaml_list['panoramas']:
         # opened file, write our results
         lineList = ["---",
                              f"title: {thisDate}",
-                             "draft: false",
+                             "layout: seadragonpano",
                              f"description: {item['title']}",
                              "resolution: " + thisResString,
                              f"weight: {item['resolution']}",

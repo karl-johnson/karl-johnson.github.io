@@ -1,0 +1,16 @@
+{{ define "main"}}
+    {{ .Content}}
+    <div id="content">
+        <div id="grid">
+            {{ range .Pages.ByWeight.Reverse}}
+                <a href="{{.RelPermalink}}">
+                    <span id="thumbnail">
+                        <img src="{{ $.Site.Params.staticURL }}{{.Params.Thumbnail}}">
+                        <span> {{.Description}} <br> ({{.Params.Resolution}})</span>
+                        {{ printf "%#v" .RelPermalink }}
+                    </span>
+                </a>
+            {{end}}
+        </div>
+    </div>
+{{ end }}

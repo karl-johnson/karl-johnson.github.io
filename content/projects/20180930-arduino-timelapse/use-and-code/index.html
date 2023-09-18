@@ -1,0 +1,30 @@
+---
+date: 2018-09-16
+description: DIY 12-stop Neutral Density Filter
+---
+<html>
+ <body>
+  <div id="content">
+   <t1>Timelapse Box Code and Operation</t1><br>
+   <p> I tried to make using this device as simple as possible to operate with the components I had available. Right after turning on the Arduino, the timing intereval can be adjusted by turning the potentiometer. While doing this, the intereval setting is printed out on the LCD in seconds. Once the intereval is set, the button is pressed to start the timelapse. While photos are being taken, a progress bar counts down to when the next photo is about to be taken, with an exclamation mark displayed as the camera is being triggered. To end the timelapse, the button is pressed again, and after a short message the screen returns to the intereval editing state. </p>
+  </div>
+  <div id="grid">
+   <a href="procedure_dem.gif">
+    <span id="thumbnail">
+     <img src="procedure_dem.gif">
+     <span></span>
+    </span>
+   </a>
+  </div>
+  <div id="content">
+   <p> Most of the code for this is straightforward; <a href="https://gitlab.com/karljohnson/arduino-timelapse-code/blob/master/cam3screen.ino">the only program it uses</a> is less than 100 lines long. The only particularly interesting part of the program is how the value read from the potentiometer is used to control the timing intereval. The Arduino reads a voltage between 0 and 5V for the two extremes of the dial on the potentionmeter, which it then converts to a value between 0 and 1023 - simply using this value as the timing intereval would make precisely choosing interevals impossible. Since the range of motion of the dial is only about 2/3 of a turn, the user in this setup would have to turn the dial 0.03 degrees to change the timing intereval by 1 second, regardless of what that timing intereval was. Clearly, this makes no sense - there's not much of a difference between an intereval of 1014 and 1024 seconds, but the difference between 1 and 11 seconds is quite significant. In general, therefore, more fidelity is needed at shorter interevals than at longer interevals. To solve this issue, I used a cubic relationship between the dial and the intereval, instead of a linear one:</p>
+  </div>
+  <div id="code">
+    <p>     potval = analogRead(pot_pin);
+     intereval = pow((potval/90),3);</p>
+  </div>
+  <div id="content">
+   <p> (You can play with an interactive graph of this <a href="https://www.desmos.com/calculator/18sxprwkbi">here</a>.) This nonlinear relation makes tweaking short interevals much easier. 1/5 of the range of the potentiometer knob is devoted to just adjusting the timing interevals from 0 to 10 seconds, which makes selecting short interevals easy. Altogether, this is a pretty simple way to have both a large range of interevals and have sufficient precision. <br><br> </p>
+  </div>
+ </body>
+</html> 

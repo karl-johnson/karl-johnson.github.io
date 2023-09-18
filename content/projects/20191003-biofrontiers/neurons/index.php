@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Karl Johnson - Biofrontiers Neurons </title>
+  <link rel="shortcut icon" type="image/png" href="/format_images/title_icon.png" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400">
+  <link rel="stylesheet" href="/style.css"> 
+ </head>
+ <body>
+  <?php include($_SERVER['DOCUMENT_ROOT'].'/sidebar.html'); ?>
+  <div id="content">
+   <t1> neurons </t1><br>
+   <p>Using the fluorescent microscopy techniques at Biofrontiers, we were able to capture some nice images of the neurons in some small invertebrates. In all the below images with multiple colors, the color encodes depth information - that is, features of different colors are in different positions along the direction pointing in/out of your computer screen (this is simply a pretty way of representing 3D data in 2D). In addition to these images below, I also have a few <b>very large</b> panoramas of whole organisms with the same amount of detail as shown below, which I will be uploading soon.</p>
+  </div>
+  <div id="grid">
+   <a href="larvae-head.jpg">
+    <span id="thumbnail">
+     <img src="larvae-head_thumb.jpg">
+    </span>
+   </a>
+   <a href="larvae-body-stitch.jpg">
+    <span id="thumbnail">
+     <img src="larvae-body-stitch_thumb.jpg">
+    </span>
+   </a>
+   <a href="fly-leg.jpg">
+    <span id="thumbnail">
+     <img src="fly-leg_thumb.jpg">
+    </span>
+   </a>
+   <a href="c-elegans-depth-CROP.jpg">
+    <span id="thumbnail">
+     <img src="c-elegans-depth-CROP_thumb.jpg">
+    </span>
+   </a>
+  </div> 
+  <div id="caption">
+      <p> (reading left-to-right, top to bottom) The 'head' of a fruit fly larvae; a section of the 'body' of a fruit fly larvae; a leg of a mature fruit fly (the curvy streaks at the top-right of the image are particles drifting past the leg, not part of the sample); a <i>C. elegans</i> curled up in a circle.</p>
+  </div>
+  <div id="content">
+      <p>The two images below show part of a fruit fly larvae (left) versus a similar region on <i>C. elegans</i> (right). This gives some indication as to how simple of an organism <i>C. elegans</i> is - even when compared to a fruit fly, the nervous system of <i>C. Elegans</i> looks extremely simple. It's no coincidence that many complex bioinformatics experiments (sequencing the genome, mapping the brain, etc.) were first performed on <i>C. elegans</i>.</p>
+  </div>
+  </div>
+  <div id="grid">
+   <a href="larvae-body-stitch.jpg">
+    <span id="thumbnail">
+     <img src="larvae-body-stitch_thumb.jpg">
+    </span>
+   </a>
+   <a href="c-elegans-depth-CROP-1.jpg">
+    <span id="thumbnail">
+     <img src="c-elegans-depth-CROP-1_thumb.jpg">
+    </span>
+   </a>
+  </div> 
+  <?php include($_SERVER['DOCUMENT_ROOT'].'/footer.html'); ?>
+ </body>
+</html> 
