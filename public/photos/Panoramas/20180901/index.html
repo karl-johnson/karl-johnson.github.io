@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>
+            Karl Johnson
+        </title>
+        <link rel="shortcut icon" type="image/png" href="/format_images/title_icon.png" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400">
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>  
+        
+          <div id="sidebar">
+   <a href="/">
+    <div class="h-icon">
+     <img src="/format_images/logo_home_light_small.png">
+     <span class="side-text"></span>
+    </div>
+   </a>
+   <a href="/photos/Panoramas">
+    <div class="icon">
+     <img src="/format_images/logo_pano_light_small.png">
+     <span class="side-text">Panoramas</span>
+    </div>
+   </a>
+   <a href="/photos/">
+    <div class="icon">
+     <img src="/format_images/logo_photo_light_small.png">
+     <span class="side-text">Photos</span>
+    </div>
+   </a>
+   <a href="/projects/">
+    <div class="icon">
+     <img src="/format_images/logo_tech_light_small.png">
+     <span class="side-text">Projects</span>
+    </div>
+   </a>
+   <a href="/contact/">
+    <div class="icon">
+     <img src="/format_images/logo_about_light_small.png">
+     <span class="side-text">About</span>
+    </div>
+   </a>
+  </div>
+
+        
+    <style>
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+        #panorama {
+            width: 90%;  
+            width: calc(100% - 50px);
+            height: calc(100% - 50px);
+             
+            margin-left: 50px;
+        }
+    </style>
+    
+    <a href = "../">
+ <div id="return">
+  <img src="/format_images/logo_return_light_small.png">
+ </div>
+</a>
+    
+    
+    
+        
+        
+    
+    
+    <div id="panorama"></div>
+    <script src="/openseadragon/openseadragon.js"></script>
+    <script src="/openseadragon/openseadragon-bookmark-url.js"></script>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "panorama",
+            prefixUrl: "/openseadragon/images-day-night/",
+            tileSources: ["https:\/\/ka.rljohnson.net\/photos\/Panoramas\/20180901\\dzc_output.xml","https:\/\/ka.rljohnson.net\/photos\/Panoramas\/20180901\\dzc_output.xml"],
+            showNavigator:  "true",
+            sequenceMode: "",
+            navigatorPosition: "TOP_RIGHT",
+            preserveViewport: true
+        });
+        viewer.bookmarkUrl();
+    </script>
+
+        
+              <div id="footer">
+   <p> <b>&#169; 2018-2023 Karl Johnson</b> </p>
+  </div>
+        
+    </body>
+</html> 

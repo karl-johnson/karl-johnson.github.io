@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Karl Johnson</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Karl Johnson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/projects/20230930-gpseek/</link>
+      <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/20230930-gpseek/</guid>
+      <description>gpseek testing Click the button to get your coordinates.
+Try It</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/projects/20181228-campus-board/</link>
+      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/20181228-campus-board/</guid>
+      <description> Compact Campus Board The climbing gym my brother goes to near his college has no campus board. A campus board is a tool rock climbers use to exersize climbing without legs (&#34;campusing&#34;). All examples I&#39;ve seen look very simple, so I thought it&#39;d be a good Christmas gift to make one that you could easily swap out holds on and would fit in my brother&#39;s apartment. The Board - Part 1 The Holds The Board - Part 2 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/projects/20180930-arduino-timelapse/</link>
+      <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/20180930-arduino-timelapse/</guid>
+      <description> Hot-Shoe Mountable Timelapse Box I&#39;ve taken a few timelapses manually, by setting a timer on my phone and taking a photo every 30 seconds, 5 minutes, or whatever intereval I choose. This is tedious, and I thought that using my Arduino to do this for me would be much easier and more fun.
+Build Code &amp; Operation </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/projects/20180916-12-stop-nd/</link>
+      <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projects/20180916-12-stop-nd/</guid>
+      <description>DIY 12-stop Neutral Density Filter To use up some Amazon credit that was about to expire, I recently bought a roll of 4-stop netural density sheet. I also had an 82mm filter ring without any glass in it left over from a broken protective filter. First, I cut out a rough circle, slightly bigger than the filter ring. I then used a pencil to color in the edge of the filter ring, which I rubbed on the neutral density sheet to transfer precisely where I needed to cut.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/projects/20181028-scrabble-tiles/</link>
+      <pubDate>Sat, 22 Aug 1970 06:50:28 -0700</pubDate>
+      
+      <guid>http://localhost:1313/projects/20181028-scrabble-tiles/</guid>
+      <description>Giant Magnetized Scrabble Tiles (the images will load somewhat slowly on this page, for now)
+For Mother&#39;s day, my siblings and I got my mom a set of giant (~2.5 inches square) scrabble tiles, which spell out all the names in our family when put together correctly. We wanted to mount these in their proper arrangement on the wall. However, these tiles are just blocks of wood with letters printed on them, and there is no easy way to hang them as is.</description>
+    </item>
+    
+  </channel>
+</rss>

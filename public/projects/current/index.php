@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Karl Johnson - Projects</title>
+  <link rel="shortcut icon" type="image/png" href="/format_images/title_icon.png" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400">
+  <link rel="stylesheet" href="/style.css"> 
+ </head>
+ <body>
+  <?php include($_SERVER['DOCUMENT_ROOT'].'/sidebar.html'); ?>
+  <div id="content">
+   <t1> currently working on... </t1><br>
+   <p> I'm hoping to make progress on a variety of personal projects this (2023) summer: </p><br>
+   <ul>
+       <li>Magnetically driven resonant fiber projection system</li>
+        <ul style="list-style-type: lower-alpha; padding-bottom: 0;">
+            <li style="margin-left:2em">Single mode optical fiber to laser diode pigtailing</li>
+            <li style="margin-left:2em; padding-bottom: 0;">Nickel plating of optical fiber for magnetic control</li>
+        </ul>
+       <li>Growing large single crystals of Bismuth using a Czochralski-like method</li>
+       <li>Remote control for six-axis positioner</li>
+   </ul>
+  </div>
+  <div id="grid">
+   <a href="laser_fiber_early.jpg">
+    <span id="thumbnail">
+     <img src="laser_fiber_early.jpg">
+    </span>
+   </a>
+   <a href="tollens_early.jpg">
+    <span id="thumbnail">
+     <img src="tollens_early.jpg">
+    </span>
+   </a>
+   <a href="cz_puller_v1.jpg">
+    <span id="thumbnail">
+     <img src="cz_puller_v1.jpg">
+    </span>
+   </a>
+   <a href="bismuth_crstal_early.jpg">
+    <span id="thumbnail">
+     <img src="bismuth_crstal_early.jpg">
+    </span>
+   </a>
+   <a href="controller_early_v1.jpg">
+    <span id="thumbnail">
+     <img src="controller_early_v1.jpg">
+    </span>
+   </a>
+   <!--<a href="[LINK TO PAGE]">
+    <span id="thumbnail">
+     <img src="[LINK TO THUMBNAIL]">
+     <span>IMAGE TEXT</span>
+    </span>
+   </a>-->
+  </div>
+  <?php include($_SERVER['DOCUMENT_ROOT'].'/footer.html'); ?>
+ </body>
+</html> 

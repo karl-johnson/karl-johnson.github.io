@@ -5,7 +5,7 @@
             {{ range .Pages.ByDate}}
                 <a href="{{.RelPermalink}}">
                     <span id="thumbnail">
-                        <img src="{{ $.Site.Params.staticURL }}{{.Params.Thumbnail}}">
+                        <img src="{{ $.Site.Params.staticURL }}{{.RelPermalink}}{{.Params.Thumbnail}}">
                         <span> {{.Description}}</span>
                         {{ printf "%#v" .RelPermalink }}
                     </span>
