@@ -1,16 +1,14 @@
 {{ define "main"}}
     {{ .Content}}
-    <div id="content">
-        <div id="grid">
-            {{ range .Pages.ByDate}}
-                <a href="{{.RelPermalink}}">
-                    <span id="thumbnail">
-                        <img src="{{ $.Site.Params.staticURL }}{{.RelPermalink}}{{.Params.Thumbnail}}">
-                        <span> {{.Description}}</span>
-                        {{ printf "%#v" .RelPermalink }}
-                    </span>
-                </a>
-            {{end}}
-        </div>
+    <div id="grid">
+        {{ range(where .Pages.ByDate.Reverse ".Params.unlisted" "!=" "true")  }}
+            <a href="{{.RelPermalink}}">
+                <span id="thumbnail">
+                    <img src="{{ $.Site.Params.staticURL }}{{.RelPermalink}}{{.Params.Thumbnail}}">
+                    <span> {{.Description}}</span>
+                    {{ printf "%#v" .RelPermalink }}
+                </span>
+            </a>
+        {{end}}
     </div>
 {{ end }}

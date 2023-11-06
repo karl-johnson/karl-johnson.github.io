@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Karl Johnson</title>
+    <title>Karl Johnson</title>
     <link>http://example.org/projects/</link>
-    <description>Recent content in Projects on Karl Johnson</description>
+    <description>Recent content on Karl Johnson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>http://example.org/projects/20230930-gpseek/</link>
@@ -19,21 +19,12 @@ Try It</description>
     
     <item>
       <title></title>
-      <link>http://example.org/projects/20181228-campus-board/</link>
-      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
+      <link>http://example.org/projects/20191227-lens-repair/</link>
+      <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/projects/20181228-campus-board/</guid>
-      <description> Compact Campus Board The climbing gym my brother goes to near his college has no campus board. A campus board is a tool rock climbers use to exersize climbing without legs (&#34;campusing&#34;). All examples I&#39;ve seen look very simple, so I thought it&#39;d be a good Christmas gift to make one that you could easily swap out holds on and would fit in my brother&#39;s apartment. The Board - Part 1 The Holds The Board - Part 2 </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://example.org/projects/20180930-arduino-timelapse/</link>
-      <pubDate>Sun, 30 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20180930-arduino-timelapse/</guid>
-      <description> Hot-Shoe Mountable Timelapse Box I&#39;ve taken a few timelapses manually, by setting a timer on my phone and taking a photo every 30 seconds, 5 minutes, or whatever intereval I choose. This is tedious, and I thought that using my Arduino to do this for me would be much easier and more fun.
-Build Code &amp; Operation </description>
+      <guid>http://example.org/projects/20191227-lens-repair/</guid>
+      <description>using lens glares to save a broken lens In this video, I show how to use the reflections off the internal elements of a camera lens to find out-of-place elements, and how I used that trick to fix my Canon 28-135 f/3.5-5.6.
+Below are images of a test chart taken with the broken lens at 28mm - click (or tap) on each image to see the same region of the test chart taken with the fixed lens.</description>
     </item>
     
     <item>

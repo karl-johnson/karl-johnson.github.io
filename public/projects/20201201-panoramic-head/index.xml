@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Karl Johnson</title>
+    <link>http://example.org/projects/20201201-panoramic-head/</link>
+    <description>Recent content on Karl Johnson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/projects/20201201-panoramic-head/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://example.org/projects/20201201-panoramic-head/20221025/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/20201201-panoramic-head/20221025/</guid>
+      <description>Bluetooth motorized panoramic tripod head The device shown in the youtube video on the other page was never intended to be the final product, as it was quite clunky to use in practice (required a whole backpack of bits and bobs, plus lots of setup time). Over the time since that video, I&#39;ve gotten the device to a point where the only accessories it needs to function is a DSLR and a smartphone.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/projects/20201201-panoramic-head/20201201/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/20201201-panoramic-head/20201201/</guid>
+      <description>motorized panoramic tripod head In this video, I show off a project I&#39;ve been working on for a while: a homemade motorized panoramic tripod head.
+A few things not mentioned in the video: I originally didn&#39;t use a belt design for driving the two axes, and instead started with a worm gear system. Though the worm gear system had higher reduction over the current belt-driven design (which allows for better precision in positioning the camera), it was significantly less robust and more bulky than simply using belts.</description>
+    </item>
+    
+  </channel>
+</rss>

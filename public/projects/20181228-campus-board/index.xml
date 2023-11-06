@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Karl Johnson</title>
+    <link>http://example.org/projects/20181228-campus-board/</link>
+    <description>Recent content on Karl Johnson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/projects/20181228-campus-board/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://example.org/projects/20181228-campus-board/board-part-2/</link>
+      <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/20181228-campus-board/board-part-2/</guid>
+      <description>the board - part 2
+(return to campus board hub)
+After my brother opened the gift, I did a test hanging at home. Right away, we noticed that the board flexed significantly, even after adding a vertical 2x2 to the back of it. In addition to this problem of the board flexing, there was another problem with this initial mounting: the board was vertical. With no overhang, you can&#39;t hang on the board without bumping the rest of your body against the board.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/projects/20181228-campus-board/holds/</link>
+      <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/20181228-campus-board/holds/</guid>
+      <description>the holds (return to campus board hub)
+Since I designed the board to accept climbing bolts, it made sense for my homemade holds to be bolted (as opposed to screwed) onto the board. Normal bolt-on holds only have one hole - because there is no standard spacing of t-nuts on climbing walls - but I designed my holds to have two holes. My board has a spacing of 4.75&#34; both horizontally and vertically, so a hold with that spacing should be able to be mounted either way as well.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/projects/20181228-campus-board/board-part-1/</link>
+      <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/projects/20181228-campus-board/board-part-1/</guid>
+      <description>the board, part 1 (return to campus board hub)
+My first idea was to make an almost full sized board (normal campus boards are around 6&#39; tall). The board alone would be 4&#39; across by 5&#39; tall; to save space, it would fold out from the wall, and for versatility, its angle would be adjustible. I almost finished a whole CAD model in Autodesk Inventor of this idea: However, after visiting my brother&#39;s dorm, I realized this was far too large to fit in the room.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -82,9 +82,6 @@
     <loc>http://example.org/</loc>
     <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/</loc>
-    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://example.org/photos/Panoramas/</loc>
     <lastmod>2023-09-03T14:03:13-07:00</lastmod>
   </url><url>
@@ -94,13 +91,58 @@
     <loc>http://example.org/contact/</loc>
     <lastmod>2023-09-02T22:33:59-07:00</lastmod>
   </url><url>
+    <loc>http://example.org/projects/20201201-panoramic-head/20221025/</loc>
+    <lastmod>2022-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/20201201-panoramic-head/20201201/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/20201201-panoramic-head/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/20191227-lens-repair/</loc>
+    <lastmod>2019-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/20191003-biofrontiers/</loc>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/20191003-biofrontiers/big-sim-stitches/</loc>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/20191003-biofrontiers/cells/</loc>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/20191003-biofrontiers/needles/</loc>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/20191003-biofrontiers/neurons/</loc>
+    <lastmod>2019-10-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://example.org/projects/20181228-campus-board/</loc>
     <lastmod>2018-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/20181228-campus-board/board-part-2/</loc>
+    <lastmod>2018-12-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/20181228-campus-board/holds/</loc>
+    <lastmod>2018-12-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/20181228-campus-board/board-part-1/</loc>
+    <lastmod>2018-12-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/projects/20180930-arduino-timelapse/</loc>
     <lastmod>2018-09-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://example.org/projects/</loc>
+    <lastmod>2018-09-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://example.org/projects/20180916-12-stop-nd/</loc>
+    <lastmod>2018-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/20180930-arduino-timelapse/build/</loc>
+    <lastmod>2018-09-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/projects/20180930-arduino-timelapse/use-and-code/</loc>
     <lastmod>2018-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://example.org/projects/20181028-scrabble-tiles/</loc>
