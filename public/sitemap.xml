@@ -148,6 +148,8 @@
     <loc>http://example.org/projects/20181028-scrabble-tiles/</loc>
     <lastmod>1970-08-22T06:50:28-07:00</lastmod>
   </url><url>
+    <loc>http://example.org/projects/current/</loc>
+  </url><url>
     <loc>http://example.org/categories/</loc>
   </url><url>
     <loc>http://example.org/tags/</loc>
