@@ -3,7 +3,7 @@
   # 20200201, 20200309, 20201003, 20201218
   # 20210704, 20210828, 20220717
   # path AFTER the staticURL path used by the rest of Hugo
-  panoPath: photos/Panoramas/
+  panoPath: panoramas/
   panoramas:
     - 
       date: 20180901

@@ -1,6 +1,5 @@
-baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'Karl Johnson'
 disablePathToLower = true
 [params]
-  staticURL = 'https://ka.rljohnson.net/'
+  staticURL = 'https://karl-johnson.b-cdn.net/'

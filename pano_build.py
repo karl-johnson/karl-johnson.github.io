@@ -34,7 +34,7 @@ def getResString(resIn):
 
 
 yamlPath = "data/panoramas.yaml"
-outputPath = "content/photos/Panoramas/"
+outputPath = "content/photos/panoramas/"
 
 with open(yamlPath) as file:
     yaml_list = yaml.load(file, Loader=yaml.FullLoader)
