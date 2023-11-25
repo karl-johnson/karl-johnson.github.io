@@ -32,9 +32,8 @@ def getResString(resIn):
     else:
         raise Exception("Terapixel resolution not supported, yet...")
 
-
 yamlPath = "data/panoramas.yaml"
-outputPath = "content/photos/panoramas/"
+outputPath = "content/panoramas/"
 
 with open(yamlPath) as file:
     yaml_list = yaml.load(file, Loader=yaml.FullLoader)

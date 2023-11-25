@@ -1,0 +1,24 @@
+<!-- Shortcode for single image tile -->
+<!-- src = image link (required) -->
+<!-- href = link to visit if not image -->
+<!-- caption = text written over image -->
+<!-- id = css id to allow variants-->
+{{ $cdnSrc := (path.Join ($.Site.Params.staticURL) (path.Dir .Page.File.Path) (.Get "src"))}}
+{{ $thisHref := "NONE" }}
+{{ with .Get "href" }}
+    {{ $thisHref = . }}
+{{ else }}
+    {{ $thisHref = $cdnSrc }}
+{{ end }}
+
+{{ $thisId := "thumbnail"}}
+{{ with .Get "id" }}
+    {{ $thisId = . }}
+{{end}}
+
+<a href="{{$thisHref}}">
+    <span id="{{ $thisId}}">
+        <img src="{{ $cdnSrc }}"/>
+        {{ with .Get "caption"}}<span>{{.}}</span> {{end}}
+    </span>
+</a>

@@ -47,7 +47,7 @@
         var viewer = OpenSeadragon({
             id: "panorama",
             prefixUrl: "/openseadragon/images-day-night/",
-            tileSources: ["{{$.Site.Params.staticURL}}{{$tileSrcs1}}","{{$.Site.Params.staticURL}}{{$tileSrcs2}}"],
+            tileSources: ["{{$.Site.Params.panoURL}}{{$tileSrcs1}}","{{$.Site.Params.panoURL}}{{$tileSrcs2}}"],
             showNavigator:  "{{.Params.enableNav}}",
             sequenceMode: "{{.Params.isDayNight}}",
             navigatorPosition: "{{.Params.browserLoc}}",

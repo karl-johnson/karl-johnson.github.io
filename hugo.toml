@@ -3,3 +3,5 @@ title = 'Karl Johnson'
 disablePathToLower = true
 [params]
   staticURL = 'https://karl-johnson.b-cdn.net/'
+  panoURL = 'https://karl-johnson.b-cdn.net/'
+  
