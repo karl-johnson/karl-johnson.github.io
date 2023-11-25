@@ -9,29 +9,16 @@ thumbnail: shrinking-sir-actin.jpg
    <p> Lots of the imaging we did in Biofrontiers was of cells. <br> </p>
   </div>
   <div id="grid">
-   <a href="2color.jpg">
-    <span id="thumbnail">
-     <img src="2color-thumb.jpg">
-    </span>
-   </a>
-   <a href="2color-zoom1.png">
-    <span id="thumbnail">
-     <img src="2color-zoom1.png">
-    </span>
-   </a>
+    {{< tile src="2color-thumb.jpg" cdnHref="2color.jpg" >}}
+    {{< tile src="2color-zoom1.png" >}}
   </div>
   <div id="content">
    <p> The above images show the cytoskeleton (red) and mitochondia (green) of some bovine pulmonary artery endothelial (BPAE) cells. The first image is a <b>large</b> panorama created using the same SIM stitching techniques I've used in <a href="../neurons/">many</a> other <a href="https://doi.org/10.1101/765396">projects.</a> The second image shows a zoom-in of a region in the first image, with the top half showing a conventional fluorescence microscope image and the bottom showing our superresolution processing method, MAPSIM. While this particlar sample was bought from <a href="https://www.thermofisher.com/order/catalog/product/F36924?SID=srch-srp-F36924">Thermofisher</a>, we grew our own cells too: <br> </p>
   </div>
-   <a href="shrinking-sir-actin.jpg">
-    <span id="thumbnail">
-     <img src="shrinking-sir-actin.jpg">
-    </span>
-   </a>
+  {{< tile src="shrinking-sir-actin.jpg" >}}
   </div> 
   <div id="content">
       <p>This particular photo is actually from a failed experiment where cells shriveled up and died while taking a timelapse of them - the colorful effect in this image comes from color-coding every frame of the timelapse and merging all the frames into one image.</p>
   </div>
-  <?php include($_SERVER['DOCUMENT_ROOT'].'/footer.html'); ?>
  </body>
 </html> 

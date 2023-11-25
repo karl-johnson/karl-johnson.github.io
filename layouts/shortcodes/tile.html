@@ -1,6 +1,7 @@
 <!-- Shortcode for single image tile -->
 <!-- src = image link (required) -->
 <!-- href = link to visit if not image -->
+<!-- cdnHref = use this if you want to append cdn to *link* path-->
 <!-- caption = text written over image -->
 <!-- id = css id to allow variants-->
 {{ $cdnSrc := (path.Join (path.Dir .Page.File.Path) (.Get "src")) | printf "%s%s" ($.Site.Params.staticURL) }}
@@ -8,7 +9,11 @@
 {{ with .Get "href" }}
     {{ $thisHref = . }}
 {{ else }}
-    {{ $thisHref = $cdnSrc }}
+    {{ if .Get "cdnHref"}}
+        {{ $thisHref = (path.Join (path.Dir .Page.File.Path) (.Get "cdnHref")) | printf "%s%s" ($.Site.Params.staticURL) }}
+    {{ else}}
+        {{ $thisHref = $cdnSrc }}
+    {{ end }}
 {{ end }}
 
 {{ $thisId := "thumbnail"}}
