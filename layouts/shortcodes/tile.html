@@ -3,7 +3,7 @@
 <!-- href = link to visit if not image -->
 <!-- caption = text written over image -->
 <!-- id = css id to allow variants-->
-{{ $cdnSrc := (path.Join ($.Site.Params.staticURL) (path.Dir .Page.File.Path) (.Get "src"))}}
+{{ $cdnSrc := (path.Join (path.Dir .Page.File.Path) (.Get "src")) | printf "%s%s" ($.Site.Params.staticURL) }}
 {{ $thisHref := "NONE" }}
 {{ with .Get "href" }}
     {{ $thisHref = . }}
