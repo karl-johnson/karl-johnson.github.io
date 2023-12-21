@@ -66,11 +66,12 @@ body {
  border-width: 0px 1px;
  border-color: #66ccff;
 }
-#content t1, #content-blue-edges t1{
+#content t1, #content h1, #content-blue-edges t1{
  font-family: "Montserrat";
  font-weight: 400;
  font-size: 60px;
  color: white;
+ margin: 0;
 }
 #content t2, #content-blue-edges t2{
  font-family: "Montserrat";
