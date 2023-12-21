@@ -1,4 +1,5 @@
-{{ define "main"}}
+{{ define "main"}}  
+<div id="content">
     {{ .Content}}
     <div id="grid">
         {{ range(where .Pages.ByDate.Reverse ".Params.unlisted" "!=" "true")  }}
@@ -11,4 +12,5 @@
             </a>
         {{end}}
     </div>
+</div>
 {{ end }}
