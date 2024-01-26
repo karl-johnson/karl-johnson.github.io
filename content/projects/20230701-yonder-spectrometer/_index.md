@@ -3,7 +3,7 @@ date: 2023-07-01
 description: Yonder Dynamics Spectrometer Module
 thumbnail: yonder-thumb.jpg
 layout: markup-project
-draft: false
+draft: true
 ---
 # yonder raman spectrometer
 
