@@ -7,7 +7,7 @@ draft: false
 ---
 
 # yonder rover
-I spent a lot of time during my undergrad at UCSD working on Yonder Dynamics, an engineering project team focusing on building a Mars Rover for the University Rover Challenge.
+I spent a lot of time during my undergrad at UCSD working on Yonder Dynamics, an engineering project team focusing on building a Mars Rover for the [University Rover Challenge](https://urc.marssociety.org/).
 
 {{< rawhtml >}}
 <div id="grid">
@@ -33,15 +33,7 @@ The two videos below are Yonder's SAR submissions for the 2022 and 2023 URC seas
 <div id="content">
 {{< /rawhtml >}}
 
-We scored well on these videos (particularly the second one) and qualified for the URC both of these years. (in fact, Yonder has qualified for the URC 6 of the 7 years that it has existed). Of course, these videos are just demonstrations of what rovers *should* do, aided by the veil of numerous takes and editing into a polished video. If you want to see how the rovers *actually* did at competition, you'll have to read on :)
-
-{{< rawhtml >}}
-</div>
-<div id="content-blue-edges">
- <p> NOTE! As of January 2024, I am still writing the next pages about the performance of the rovers at competition. In the meantime, check out <a href = "/projects/20230701-yonder-spectrometer/">this page</a> about the spectrometer module on our 2023 rover! </p>
-</div>
-<div id="content">
-{{< /rawhtml >}}
+We scored well on these videos (particularly the second one) and qualified for the URC both of these years. (in fact, Yonder has qualified for the URC 6 of the 7 years that it has existed). Of course, these videos are just demonstrations of what rovers *should* do, aided by the veil of numerous takes and editing into a polished video. <!--If you want to see how the rovers *actually* did at competition, you'll have to read on :)-->
 
 As implied by those videos, the actual tasks each rover must do are split into 4 different missions:
 - Extreme Delivery (perform simple tasks on larger objects while traversing rough terrain over long distances),
@@ -51,7 +43,15 @@ As implied by those videos, the actual tasks each rover must do are split into 4
 
 All challenges except Autonomous are teleoperated by drivers who cannot see the rover themselves, and instead must completely drive using video feeds from the rover. During Autonomous, there are also human operators who monitor the rover's progress over cameras and are allowed also occasionally program the rover in designated areas (much more like an actual Mars rover).
 
-More updates coming soon!
+{{< rawhtml >}}
+</div>
+<div id="content-blue-edges">
+ <p> One day, I'll write pages about the performance of the rovers at the URC finals in Utah - check back for updates! </p>
+</div>
+<div id="content">
+{{< /rawhtml >}}
+
+
 
 <!--Though I was on Yonder Dynamics for all 4 years of my undergrad, the competition was not held in-person in 2020 or 2021. As such, my involvement only really ramped up for the 2021-2022 and 2022-2023 seasons, during both of which I was the head of the team. Be sure to check out the two pages below (not done yet! check back later) to see the full story of those two years.
 
