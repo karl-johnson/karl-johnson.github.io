@@ -39,7 +39,6 @@ with open(yamlPath) as file:
     yaml_list = yaml.load(file, Loader=yaml.FullLoader)
 # load yaml and slightly reshape data
 panoPath = yaml_list["panoPath"]
-
 for item in yaml_list['panoramas']:
     if "date" not in item:
         raise Exception("No date for the entry" + str(item))
