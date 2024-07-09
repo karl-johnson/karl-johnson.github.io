@@ -1,3 +1,10 @@
+@media screen and (max-width: 750px) {
+    iframe {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+    }
+}
 #code {
  background-color: rgba( 0, 0, 0, .8);
  margin-left: 100px;
@@ -45,6 +52,13 @@
  color: white;
  margin: 0;
 }
+
+@media screen and (max-width: 750px) {
+	#content t1, #content h1, #content-blue-edges t1{
+		font-size: 50px;
+	}
+}
+
 #content t2, #content h2, #content-blue-edges t2{
  font-family: "Montserrat";
  font-weight: 400;
