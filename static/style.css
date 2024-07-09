@@ -12,6 +12,13 @@ a {
 a:visited {
     outline:focus none;
 }
+
+a.social {
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+}
+
 body {
  font-size: 0px;
  background: #191919;
