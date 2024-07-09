@@ -2,48 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Karl Johnson</title>
-    <link>http://example.org/projects/20191003-biofrontiers/</link>
+    <link>/projects/20191003-biofrontiers/</link>
     <description>Recent content on Karl Johnson</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 03 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/projects/20191003-biofrontiers/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/projects/20191003-biofrontiers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://example.org/projects/20191003-biofrontiers/big-sim-stitches/</link>
+      <link>/projects/20191003-biofrontiers/cells/</link>
       <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20191003-biofrontiers/big-sim-stitches/</guid>
-      <description> fluorescent histological panoramas
-These large fluorescent images of histopathological slides are the centerpoint of this paper we published in Gigascience in 2020. Normally you&#39;d be able to explore the images with an interactive viewer at the links below, but unfortunately due to hosting issues these images are temporarily unavailable. Sorry!
-Prostate Carcinoma Basal Cell Carcinoma Ovary Adenocarcinoma Breast Adenocarcinoma Tuberculosis &lt;?php include($_SERVER[&#39;DOCUMENT_ROOT&#39;].&#39;/footer.html&#39;); ?&gt; </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://example.org/projects/20191003-biofrontiers/cells/</link>
-      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20191003-biofrontiers/cells/</guid>
+      <guid>/projects/20191003-biofrontiers/cells/</guid>
       <description>cells Lots of the imaging we did in Biofrontiers was of cells. The above images show the cytoskeleton (red) and mitochondia (green) of some bovine pulmonary artery endothelial (BPAE) cells. The first image is a large panorama created using the same SIM stitching techniques I&#39;ve used in many other projects. The second image shows a zoom-in of a region in the first image, with the top half showing a conventional fluorescence microscope image and the bottom showing our superresolution processing method, MAPSIM.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20191003-biofrontiers/needles/</link>
+      <link>/projects/20191003-biofrontiers/needles/</link>
       <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20191003-biofrontiers/needles/</guid>
+      <guid>/projects/20191003-biofrontiers/needles/</guid>
       <description>microcapillaries Microcapillaries are essentially microscopic glass needles that can be used for a variety of uses in biology. By varying the shape of a needle and the size of the needle&#39;s tip, these needles can be used for anything from injecting DNA into individual cells to detecting the flow of ions in and out of a cell. At Biofrontiers, we used needles with a large (~10 um) tip to pick up whole cells and manipulate them (cell capture).</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20191003-biofrontiers/neurons/</link>
+      <link>/projects/20191003-biofrontiers/neurons/</link>
       <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20191003-biofrontiers/neurons/</guid>
-      <description>&lt;!doctype html&gt; Karl Johnson - Biofrontiers Neurons &lt;?php include($_SERVER[&#39;DOCUMENT_ROOT&#39;].&#39;/sidebar.html&#39;); ?&gt; neurons Using the fluorescent microscopy techniques at Biofrontiers, we were able to capture some nice images of the neurons in some small invertebrates. In all the below images with multiple colors, the color encodes depth information - that is, features of different colors are in different positions along the direction pointing in/out of your computer screen (this is simply a pretty way of representing 3D data in 2D).</description>
+      <guid>/projects/20191003-biofrontiers/neurons/</guid>
+      <description>&lt;!doctype html&gt;&#xD;neurons Using the fluorescent microscopy techniques at Biofrontiers, we were able to capture some nice images of the neurons in some small invertebrates. In all the below images with multiple colors, the color encodes depth information - that is, features of different colors are in different positions along the direction pointing in/out of your computer screen (this is simply a pretty way of representing 3D data in 2D). In addition to these images below, I also have a few very large panoramas of whole organisms with the same amount of detail as shown below, which I will be uploading soon.</description>
     </item>
-    
   </channel>
 </rss>

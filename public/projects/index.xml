@@ -2,58 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Karl Johnson</title>
-    <link>http://example.org/projects/</link>
+    <link>/projects/</link>
     <description>Recent content on Karl Johnson</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://example.org/projects/20230930-gpseek/</link>
+      <link>/projects/20230930-hns-testing/</link>
       <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20230930-gpseek/</guid>
-      <description>gpseek testing Click the button to get your coordinates.
-Try It</description>
+      <guid>/projects/20230930-hns-testing/</guid>
+      <description>&#xD;gpseek testing Click the button to update your coordinates on the map.&#xA;Try It&#xD;</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20191227-lens-repair/</link>
+      <link>/projects/20191227-lens-repair/</link>
       <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20191227-lens-repair/</guid>
-      <description>using lens glares to save a broken lens In this video, I show how to use the reflections off the internal elements of a camera lens to find out-of-place elements, and how I used that trick to fix my Canon 28-135 f/3.5-5.6.
-Below are images of a test chart taken with the broken lens at 28mm - click (or tap) on each image to see the same region of the test chart taken with the fixed lens.</description>
+      <guid>/projects/20191227-lens-repair/</guid>
+      <description>using lens glares to save a broken lens In this video, I show how to use the reflections off the internal elements of a camera lens to find out-of-place elements, and how I used that trick to fix my Canon 28-135 f/3.5-5.6.&#xA;Below are images of a test chart taken with the broken lens at 28mm - click (or tap) on each image to see the same region of the test chart taken with the fixed lens.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20180916-12-stop-nd/</link>
+      <link>/projects/20180916-12-stop-nd/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20180916-12-stop-nd/</guid>
+      <guid>/projects/20180916-12-stop-nd/</guid>
       <description>DIY 12-stop Neutral Density Filter To use up some Amazon credit that was about to expire, I recently bought a roll of 4-stop netural density sheet. I also had an 82mm filter ring without any glass in it left over from a broken protective filter. First, I cut out a rough circle, slightly bigger than the filter ring. I then used a pencil to color in the edge of the filter ring, which I rubbed on the neutral density sheet to transfer precisely where I needed to cut.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20181028-scrabble-tiles/</link>
+      <link>/projects/20181028-scrabble-tiles/</link>
       <pubDate>Sat, 22 Aug 1970 06:50:28 -0700</pubDate>
-      
-      <guid>http://example.org/projects/20181028-scrabble-tiles/</guid>
-      <description>Giant Magnetized Scrabble Tiles (the images will load somewhat slowly on this page, for now)
-For Mother&#39;s day, my siblings and I got my mom a set of giant (~2.5 inches square) scrabble tiles, which spell out all the names in our family when put together correctly. We wanted to mount these in their proper arrangement on the wall. However, these tiles are just blocks of wood with letters printed on them, and there is no easy way to hang them as is.</description>
+      <guid>/projects/20181028-scrabble-tiles/</guid>
+      <description>Giant Magnetized Scrabble Tiles (the images will load somewhat slowly on this page, for now)&#xA;For Mother&#39;s day, my siblings and I got my mom a set of giant (~2.5 inches square) scrabble tiles, which spell out all the names in our family when put together correctly. We wanted to mount these in their proper arrangement on the wall. However, these tiles are just blocks of wood with letters printed on them, and there is no easy way to hang them as is.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/current/</link>
+      <link>/projects/current/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/current/</guid>
-      <description> currently working on... I&#39;m hoping to make progress on a variety of personal projects this (2023) summer: Magnetically driven resonant fiber projection system Single mode optical fiber to laser diode pigtailing Nickel plating of optical fiber for magnetic control Growing large single crystals of Bismuth using a Czochralski-like method Remote control for six-axis positioner </description>
+      <guid>/projects/current/</guid>
+      <description>&#xD;currently working on... I&#39;m hoping to make progress on a variety of personal projects this year (2024): Magnetically driven resonant fiber projection system&#xD;Single mode optical fiber to laser diode pigtailing&#xD;Nickel plating of optical fiber for magnetic control&#xD;Growing large single crystals of Bismuth using a Czochralski-like method&#xD;I&#39;m also currently in the progress of writing pages for the following completed projects: Yonder Dynamics - Spectrometry system for 2023 rover&#xD;Yonder Dynamics - Performance of rovers at URC 2022 and 2023 Growing large single crystals of Bismuth using a Czochralski-like method&#xD;Remote control for six-axis positioner&#xD;</description>
     </item>
-    
   </channel>
 </rss>

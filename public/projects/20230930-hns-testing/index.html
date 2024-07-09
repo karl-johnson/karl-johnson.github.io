@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>
+            Karl Johnson
+        </title>
+        <link rel="shortcut icon" type="image/png" href="/format_images/title_icon.png" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400">
+        <link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="/sidebar.css">
+		<link rel="stylesheet" href="/content.css">
+		<link rel="stylesheet" href="/tiles.css">
+		<link rel="stylesheet" href="/pano.css">
+    </head>
+    <body>  
+        
+          <div id="sidebar">
+   <a href="/">
+    <div class="h-icon">
+     <img src="/format_images/logo_home_light_small.png">
+     <span class="side-text"></span>
+    </div>
+   </a>
+   <a href="/panoramas">
+    <div class="icon">
+     <img src="/format_images/logo_pano_light_small.png">
+     <span class="side-text">Panoramas</span>
+    </div>
+   </a>
+   <a href="/projects/">
+    <div class="icon">
+     <img src="/format_images/logo_tech_light_small.png">
+     <span class="side-text">Projects</span>
+    </div>
+   </a>
+   <a href="/contact/">
+    <div class="icon">
+     <img src="/format_images/logo_about_light_small.png">
+     <span class="side-text">About</span>
+    </div>
+   </a>
+  </div>
+
+        
+    <html>
+    <body>
+        <div id="content">
+            <t1> gpseek testing </t1><br>
+        </div>
+        <div id="content">
+            <p>Click the button to update your coordinates on the map.</p>
+            <button onclick="getLocation()">Try It</button>
+            <p id="demo"></p>
+            <div id="osm-map"></div>
+        </div>
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+        <link href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" rel="stylesheet"/>
+        <script>
+            var x = document.getElementById("demo");
+            // Where you want to render the map.
+            var element = document.getElementById('osm-map');
+            // Height has to be set. You can do this in CSS too.
+            element.style = 'height:600px;';
+            // Create Leaflet map on map element.
+            var map = L.map(element);
+            // Create marker that will update with every gps ping
+            var userMarker = L.marker(L.latLng(0,0));
+            // Add OSM tile layer to the Leaflet map.
+            L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+            // Set initial zoom
+            map.setView(L.latLng(0,0), 14);
+            getLocation();
+            userMarker.addTo(map);
+            // Call getLocation() every 5 seconds
+            var intervalId = setInterval(getLocation, 3000);
+            function getLocation(mapZoom) {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                } else { 
+                    x.innerHTML = "Geolocation is not supported by this browser.";
+                }
+            }
+            function showPosition(position) {
+                x.innerHTML = position.coords.latitude + ", " + position.coords.longitude;
+                // Target's GPS coordinates.
+                var target = L.latLng(position.coords.latitude, position.coords.longitude);
+                userMarker.setLatLng(target);
+                map.setView(target, map.getZoom());
+                // Update markers
+                // layerGroup.clearLayers();
+                //L.marker(target).addTo(map);
+            }
+        </script>
+    </body>
+</html>
+
+        
+              <div id="footer">
+   <p> <b>&#169; 2018-2024 Karl Johnson</b> </p>
+  </div>
+        
+    </body>
+</html> 

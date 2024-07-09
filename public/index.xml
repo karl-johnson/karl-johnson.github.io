@@ -2,509 +2,452 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Karl Johnson</title>
-    <link>http://example.org/</link>
+    <link>/</link>
     <description>Recent content on Karl Johnson</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>20181007</title>
-      <link>http://example.org/photos/Panoramas/20181007/</link>
+      <link>/panoramas/20181007/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20181007/</guid>
+      <guid>/panoramas/20181007/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20180901</title>
-      <link>http://example.org/photos/Panoramas/20180901/</link>
+      <link>/panoramas/20180901/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20180901/</guid>
+      <guid>/panoramas/20180901/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20200102</title>
-      <link>http://example.org/photos/Panoramas/20200102/</link>
+      <link>/panoramas/20200102/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20200102/</guid>
+      <guid>/panoramas/20200102/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20230610</title>
-      <link>http://example.org/photos/Panoramas/20230610/</link>
+      <link>/panoramas/20230610/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20230610/</guid>
+      <guid>/panoramas/20230610/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20190515</title>
-      <link>http://example.org/photos/Panoramas/20190515/</link>
+      <link>/panoramas/20190515/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20190515/</guid>
+      <guid>/panoramas/20190515/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20201125</title>
-      <link>http://example.org/photos/Panoramas/20201125/</link>
+      <link>/panoramas/20201125/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20201125/</guid>
+      <guid>/panoramas/20201125/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>20220320</title>
+      <link>/panoramas/20220320/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/panoramas/20220320/</guid>
+      <description></description>
+    </item>
     <item>
       <title>20211119</title>
-      <link>http://example.org/photos/Panoramas/20211119/</link>
+      <link>/panoramas/20211119/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20211119/</guid>
+      <guid>/panoramas/20211119/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20201121</title>
-      <link>http://example.org/photos/Panoramas/20201121/</link>
+      <link>/panoramas/20201121/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20201121/</guid>
+      <guid>/panoramas/20201121/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20201008</title>
-      <link>http://example.org/photos/Panoramas/20201008/</link>
+      <link>/panoramas/20201008/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20201008/</guid>
+      <guid>/panoramas/20201008/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20201231</title>
-      <link>http://example.org/photos/Panoramas/20201231/</link>
+      <link>/panoramas/20201231/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20201231/</guid>
+      <guid>/panoramas/20201231/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20201227</title>
-      <link>http://example.org/photos/Panoramas/20201227/</link>
+      <link>/panoramas/20201227/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20201227/</guid>
+      <guid>/panoramas/20201227/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20191230</title>
-      <link>http://example.org/photos/Panoramas/20191230/</link>
+      <link>/panoramas/20191230/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20191230/</guid>
+      <guid>/panoramas/20191230/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20201204</title>
-      <link>http://example.org/photos/Panoramas/20201204/</link>
+      <link>/panoramas/20201204/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20201204/</guid>
+      <guid>/panoramas/20201204/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20210612</title>
-      <link>http://example.org/photos/Panoramas/20210612/</link>
+      <link>/panoramas/20210612/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20210612/</guid>
+      <guid>/panoramas/20210612/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20201113</title>
-      <link>http://example.org/photos/Panoramas/20201113/</link>
+      <link>/panoramas/20201113/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20201113/</guid>
+      <guid>/panoramas/20201113/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20200927</title>
-      <link>http://example.org/photos/Panoramas/20200927/</link>
+      <link>/panoramas/20200927/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20200927/</guid>
+      <guid>/panoramas/20200927/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20211023</title>
-      <link>http://example.org/photos/Panoramas/20211023/</link>
+      <link>/panoramas/20211023/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20211023/</guid>
+      <guid>/panoramas/20211023/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20210715</title>
-      <link>http://example.org/photos/Panoramas/20210715/</link>
+      <link>/panoramas/20210715/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20210715/</guid>
+      <guid>/panoramas/20210715/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20230616</title>
-      <link>http://example.org/photos/Panoramas/20230616/</link>
+      <link>/panoramas/20230616/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20230616/</guid>
+      <guid>/panoramas/20230616/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20210618</title>
-      <link>http://example.org/photos/Panoramas/20210618/</link>
+      <link>/panoramas/20210618/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20210618/</guid>
+      <guid>/panoramas/20210618/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>20240113</title>
+      <link>/panoramas/20240113/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/panoramas/20240113/</guid>
+      <description></description>
+    </item>
     <item>
       <title>20210722</title>
-      <link>http://example.org/photos/Panoramas/20210722/</link>
+      <link>/panoramas/20210722/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20210722/</guid>
+      <guid>/panoramas/20210722/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>20240614</title>
+      <link>/panoramas/20240614/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/panoramas/20240614/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>20231210</title>
+      <link>/panoramas/20231210/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/panoramas/20231210/</guid>
+      <description></description>
+    </item>
     <item>
       <title>20220820</title>
-      <link>http://example.org/photos/Panoramas/20220820/</link>
+      <link>/panoramas/20220820/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20220820/</guid>
+      <guid>/panoramas/20220820/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20220117</title>
-      <link>http://example.org/photos/Panoramas/20220117/</link>
+      <link>/panoramas/20220117/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20220117/</guid>
+      <guid>/panoramas/20220117/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20201205</title>
-      <link>http://example.org/photos/Panoramas/20201205/</link>
+      <link>/panoramas/20201205/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20201205/</guid>
+      <guid>/panoramas/20201205/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20221125</title>
-      <link>http://example.org/photos/Panoramas/20221125/</link>
+      <link>/panoramas/20221125/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20221125/</guid>
+      <guid>/panoramas/20221125/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20210710</title>
-      <link>http://example.org/photos/Panoramas/20210710/</link>
+      <link>/panoramas/20210710/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20210710/</guid>
+      <guid>/panoramas/20210710/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20210705</title>
-      <link>http://example.org/photos/Panoramas/20210705/</link>
+      <link>/panoramas/20210705/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20210705/</guid>
+      <guid>/panoramas/20210705/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20231014</title>
-      <link>http://example.org/photos/Panoramas/20231014/</link>
+      <link>/panoramas/20231014/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20231014/</guid>
+      <guid>/panoramas/20231014/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20210713</title>
-      <link>http://example.org/photos/Panoramas/20210713/</link>
+      <link>/panoramas/20210713/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20210713/</guid>
+      <guid>/panoramas/20210713/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20210910</title>
-      <link>http://example.org/photos/Panoramas/20210910/</link>
+      <link>/panoramas/20210910/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20210910/</guid>
+      <guid>/panoramas/20210910/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20210307</title>
-      <link>http://example.org/photos/Panoramas/20210307/</link>
+      <link>/panoramas/20210307/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20210307/</guid>
+      <guid>/panoramas/20210307/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20211002</title>
-      <link>http://example.org/photos/Panoramas/20211002/</link>
+      <link>/panoramas/20211002/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20211002/</guid>
+      <guid>/panoramas/20211002/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20201217</title>
-      <link>http://example.org/photos/Panoramas/20201217/</link>
+      <link>/panoramas/20201217/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20201217/</guid>
+      <guid>/panoramas/20201217/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20210227</title>
-      <link>http://example.org/photos/Panoramas/20210227/</link>
+      <link>/panoramas/20210227/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20210227/</guid>
+      <guid>/panoramas/20210227/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20210223</title>
-      <link>http://example.org/photos/Panoramas/20210223/</link>
+      <link>/panoramas/20210223/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20210223/</guid>
+      <guid>/panoramas/20210223/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20210327</title>
-      <link>http://example.org/photos/Panoramas/20210327/</link>
+      <link>/panoramas/20210327/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20210327/</guid>
+      <guid>/panoramas/20210327/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>20220912</title>
-      <link>http://example.org/photos/Panoramas/20220912/</link>
+      <link>/panoramas/20220912/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/photos/Panoramas/20220912/</guid>
+      <guid>/panoramas/20220912/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>20231230</title>
+      <link>/panoramas/20231230/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/panoramas/20231230/</guid>
+      <description></description>
+    </item>
     <item>
       <title></title>
-      <link>http://example.org/projects/20230930-gpseek/</link>
+      <link>/projects/20230930-hns-testing/</link>
       <pubDate>Sat, 30 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20230930-gpseek/</guid>
-      <description>gpseek testing Click the button to get your coordinates.
-Try It</description>
+      <guid>/projects/20230930-hns-testing/</guid>
+      <description>&#xD;gpseek testing Click the button to update your coordinates on the map.&#xA;Try It&#xD;</description>
     </item>
-    
     <item>
       <title>Contact</title>
-      <link>http://example.org/contact/</link>
+      <link>/contact/</link>
       <pubDate>Sat, 02 Sep 2023 22:33:59 -0700</pubDate>
-      
-      <guid>http://example.org/contact/</guid>
-      <description>about I am an electrical engineering student at UC San Diego who is also interested in photonics, imaging, life sciences, rock climbing, baking, and projects which involve any number of those things. For any questions, concerns, or website issues you can email me at k@rljohnson.net.
-Another note: due to the nature of my panoramic photography, panoramas on this site may incidentally display images of people without their express permission. If you object to your likeness being shown in one of my panoramas, simply contact me and I&#39;d be more than happy to edit you out.</description>
+      <guid>/contact/</guid>
+      <description>about I am an electrical engineering student at UC San Diego who is also interested in photonics, imaging, life sciences, rock climbing, baking, and projects which involve any number of those things. For any questions, concerns, or website issues you can email me at k@rljohnson.net.&#xA;Another note: due to the nature of my panoramic photography, panoramas on this site may incidentally display images of people without their express permission. If you object to your likeness being shown in one of my panoramas, simply contact me and I&#39;d be more than happy to edit you out.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20201201-panoramic-head/20221025/</link>
+      <link>/projects/20201201-panoramic-head/20221025/</link>
       <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20201201-panoramic-head/20221025/</guid>
+      <guid>/projects/20201201-panoramic-head/20221025/</guid>
       <description>Bluetooth motorized panoramic tripod head The device shown in the youtube video on the other page was never intended to be the final product, as it was quite clunky to use in practice (required a whole backpack of bits and bobs, plus lots of setup time). Over the time since that video, I&#39;ve gotten the device to a point where the only accessories it needs to function is a DSLR and a smartphone.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20201201-panoramic-head/20201201/</link>
+      <link>/projects/20201201-panoramic-head/20201201/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20201201-panoramic-head/20201201/</guid>
-      <description>motorized panoramic tripod head In this video, I show off a project I&#39;ve been working on for a while: a homemade motorized panoramic tripod head.
-A few things not mentioned in the video: I originally didn&#39;t use a belt design for driving the two axes, and instead started with a worm gear system. Though the worm gear system had higher reduction over the current belt-driven design (which allows for better precision in positioning the camera), it was significantly less robust and more bulky than simply using belts.</description>
+      <guid>/projects/20201201-panoramic-head/20201201/</guid>
+      <description>motorized panoramic tripod head In this video, I show off a project I&#39;ve been working on for a while: a homemade motorized panoramic tripod head.&#xA;A few things not mentioned in the video: I originally didn&#39;t use a belt design for driving the two axes, and instead started with a worm gear system. Though the worm gear system had higher reduction over the current belt-driven design (which allows for better precision in positioning the camera), it was significantly less robust and more bulky than simply using belts.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20191227-lens-repair/</link>
+      <link>/projects/20191227-lens-repair/</link>
       <pubDate>Fri, 27 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20191227-lens-repair/</guid>
-      <description>using lens glares to save a broken lens In this video, I show how to use the reflections off the internal elements of a camera lens to find out-of-place elements, and how I used that trick to fix my Canon 28-135 f/3.5-5.6.
-Below are images of a test chart taken with the broken lens at 28mm - click (or tap) on each image to see the same region of the test chart taken with the fixed lens.</description>
+      <guid>/projects/20191227-lens-repair/</guid>
+      <description>using lens glares to save a broken lens In this video, I show how to use the reflections off the internal elements of a camera lens to find out-of-place elements, and how I used that trick to fix my Canon 28-135 f/3.5-5.6.&#xA;Below are images of a test chart taken with the broken lens at 28mm - click (or tap) on each image to see the same region of the test chart taken with the fixed lens.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20191003-biofrontiers/big-sim-stitches/</link>
+      <link>/projects/20191003-biofrontiers/cells/</link>
       <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20191003-biofrontiers/big-sim-stitches/</guid>
-      <description> fluorescent histological panoramas
-These large fluorescent images of histopathological slides are the centerpoint of this paper we published in Gigascience in 2020. Normally you&#39;d be able to explore the images with an interactive viewer at the links below, but unfortunately due to hosting issues these images are temporarily unavailable. Sorry!
-Prostate Carcinoma Basal Cell Carcinoma Ovary Adenocarcinoma Breast Adenocarcinoma Tuberculosis &lt;?php include($_SERVER[&#39;DOCUMENT_ROOT&#39;].&#39;/footer.html&#39;); ?&gt; </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://example.org/projects/20191003-biofrontiers/cells/</link>
-      <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20191003-biofrontiers/cells/</guid>
+      <guid>/projects/20191003-biofrontiers/cells/</guid>
       <description>cells Lots of the imaging we did in Biofrontiers was of cells. The above images show the cytoskeleton (red) and mitochondia (green) of some bovine pulmonary artery endothelial (BPAE) cells. The first image is a large panorama created using the same SIM stitching techniques I&#39;ve used in many other projects. The second image shows a zoom-in of a region in the first image, with the top half showing a conventional fluorescence microscope image and the bottom showing our superresolution processing method, MAPSIM.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20191003-biofrontiers/needles/</link>
+      <link>/projects/20191003-biofrontiers/needles/</link>
       <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20191003-biofrontiers/needles/</guid>
+      <guid>/projects/20191003-biofrontiers/needles/</guid>
       <description>microcapillaries Microcapillaries are essentially microscopic glass needles that can be used for a variety of uses in biology. By varying the shape of a needle and the size of the needle&#39;s tip, these needles can be used for anything from injecting DNA into individual cells to detecting the flow of ions in and out of a cell. At Biofrontiers, we used needles with a large (~10 um) tip to pick up whole cells and manipulate them (cell capture).</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20191003-biofrontiers/neurons/</link>
+      <link>/projects/20191003-biofrontiers/neurons/</link>
       <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20191003-biofrontiers/neurons/</guid>
-      <description>&lt;!doctype html&gt; Karl Johnson - Biofrontiers Neurons &lt;?php include($_SERVER[&#39;DOCUMENT_ROOT&#39;].&#39;/sidebar.html&#39;); ?&gt; neurons Using the fluorescent microscopy techniques at Biofrontiers, we were able to capture some nice images of the neurons in some small invertebrates. In all the below images with multiple colors, the color encodes depth information - that is, features of different colors are in different positions along the direction pointing in/out of your computer screen (this is simply a pretty way of representing 3D data in 2D).</description>
+      <guid>/projects/20191003-biofrontiers/neurons/</guid>
+      <description>&lt;!doctype html&gt;&#xD;neurons Using the fluorescent microscopy techniques at Biofrontiers, we were able to capture some nice images of the neurons in some small invertebrates. In all the below images with multiple colors, the color encodes depth information - that is, features of different colors are in different positions along the direction pointing in/out of your computer screen (this is simply a pretty way of representing 3D data in 2D). In addition to these images below, I also have a few very large panoramas of whole organisms with the same amount of detail as shown below, which I will be uploading soon.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20181228-campus-board/board-part-2/</link>
+      <link>/projects/20181228-campus-board/board-part-2/</link>
       <pubDate>Fri, 28 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20181228-campus-board/board-part-2/</guid>
-      <description>the board - part 2
-(return to campus board hub)
-After my brother opened the gift, I did a test hanging at home. Right away, we noticed that the board flexed significantly, even after adding a vertical 2x2 to the back of it. In addition to this problem of the board flexing, there was another problem with this initial mounting: the board was vertical. With no overhang, you can&#39;t hang on the board without bumping the rest of your body against the board.</description>
+      <guid>/projects/20181228-campus-board/board-part-2/</guid>
+      <description>the board - part 2&#xA;(return to campus board hub)&#xA;After my brother opened the gift, I did a test hanging at home. Right away, we noticed that the board flexed significantly, even after adding a vertical 2x2 to the back of it. In addition to this problem of the board flexing, there was another problem with this initial mounting: the board was vertical. With no overhang, you can&#39;t hang on the board without bumping the rest of your body against the board.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20181228-campus-board/holds/</link>
+      <link>/projects/20181228-campus-board/holds/</link>
       <pubDate>Wed, 26 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20181228-campus-board/holds/</guid>
-      <description>the holds (return to campus board hub)
-Since I designed the board to accept climbing bolts, it made sense for my homemade holds to be bolted (as opposed to screwed) onto the board. Normal bolt-on holds only have one hole - because there is no standard spacing of t-nuts on climbing walls - but I designed my holds to have two holes. My board has a spacing of 4.75&#34; both horizontally and vertically, so a hold with that spacing should be able to be mounted either way as well.</description>
+      <guid>/projects/20181228-campus-board/holds/</guid>
+      <description>the holds (return to campus board hub)&#xA;Since I designed the board to accept climbing bolts, it made sense for my homemade holds to be bolted (as opposed to screwed) onto the board. Normal bolt-on holds only have one hole - because there is no standard spacing of t-nuts on climbing walls - but I designed my holds to have two holes. My board has a spacing of 4.75&#34; both horizontally and vertically, so a hold with that spacing should be able to be mounted either way as well.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20181228-campus-board/board-part-1/</link>
+      <link>/projects/20181228-campus-board/board-part-1/</link>
       <pubDate>Tue, 25 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20181228-campus-board/board-part-1/</guid>
-      <description>the board, part 1 (return to campus board hub)
-My first idea was to make an almost full sized board (normal campus boards are around 6&#39; tall). The board alone would be 4&#39; across by 5&#39; tall; to save space, it would fold out from the wall, and for versatility, its angle would be adjustible. I almost finished a whole CAD model in Autodesk Inventor of this idea: However, after visiting my brother&#39;s dorm, I realized this was far too large to fit in the room.</description>
+      <guid>/projects/20181228-campus-board/board-part-1/</guid>
+      <description>the board, part 1 (return to campus board hub)&#xA;My first idea was to make an almost full sized board (normal campus boards are around 6&#39; tall). The board alone would be 4&#39; across by 5&#39; tall; to save space, it would fold out from the wall, and for versatility, its angle would be adjustible. I almost finished a whole CAD model in Autodesk Inventor of this idea: However, after visiting my brother&#39;s dorm, I realized this was far too large to fit in the room.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20180916-12-stop-nd/</link>
+      <link>/projects/20180930-arduino-timelapse/build/</link>
+      <pubDate>Mon, 17 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>/projects/20180930-arduino-timelapse/build/</guid>
+      <description>Timelapse Box Build&#xA;To start, I had to figure out a way to trigger the camera to take a picture. Fortunately, there is a port on the side of Canon cameras to attach a shutter release cable (image below adapted from Canon 6D manual). These cables are usually attached to a remote that you can use to take a photo, which helps to prevent camera shake. I wanted to be able to use this port to trigger the camera with an Arduino, which isn&#39;t very common, so I had to make my own cable.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>/projects/20180916-12-stop-nd/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20180916-12-stop-nd/</guid>
+      <guid>/projects/20180916-12-stop-nd/</guid>
       <description>DIY 12-stop Neutral Density Filter To use up some Amazon credit that was about to expire, I recently bought a roll of 4-stop netural density sheet. I also had an 82mm filter ring without any glass in it left over from a broken protective filter. First, I cut out a rough circle, slightly bigger than the filter ring. I then used a pencil to color in the edge of the filter ring, which I rubbed on the neutral density sheet to transfer precisely where I needed to cut.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20180930-arduino-timelapse/build/</link>
+      <link>/projects/20180930-arduino-timelapse/use-and-code/</link>
       <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20180930-arduino-timelapse/build/</guid>
-      <description>Timelapse Box Build
-To start, I had to figure out a way to trigger the camera to take a picture. Fortunately, there is a port on the side of Canon cameras to attach a shutter release cable (image below adapted from Canon 6D manual). These cables are usually attached to a remote that you can use to take a photo, which helps to prevent camera shake. I wanted to be able to use this port to trigger the camera with an Arduino, which isn&#39;t very common, so I had to make my own cable.</description>
+      <guid>/projects/20180930-arduino-timelapse/use-and-code/</guid>
+      <description>Timelapse Box Code and Operation&#xA;I tried to make using this device as simple as possible to operate with the components I had available. Right after turning on the Arduino, the timing intereval can be adjusted by turning the potentiometer. While doing this, the intereval setting is printed out on the LCD in seconds. Once the intereval is set, the button is pressed to start the timelapse. While photos are being taken, a progress bar counts down to when the next photo is about to be taken, with an exclamation mark displayed as the camera is being triggered.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/20180930-arduino-timelapse/use-and-code/</link>
-      <pubDate>Sun, 16 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/20180930-arduino-timelapse/use-and-code/</guid>
-      <description>Timelapse Box Code and Operation
-I tried to make using this device as simple as possible to operate with the components I had available. Right after turning on the Arduino, the timing intereval can be adjusted by turning the potentiometer. While doing this, the intereval setting is printed out on the LCD in seconds. Once the intereval is set, the button is pressed to start the timelapse. While photos are being taken, a progress bar counts down to when the next photo is about to be taken, with an exclamation mark displayed as the camera is being triggered.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://example.org/projects/20181028-scrabble-tiles/</link>
+      <link>/projects/20181028-scrabble-tiles/</link>
       <pubDate>Sat, 22 Aug 1970 06:50:28 -0700</pubDate>
-      
-      <guid>http://example.org/projects/20181028-scrabble-tiles/</guid>
-      <description>Giant Magnetized Scrabble Tiles (the images will load somewhat slowly on this page, for now)
-For Mother&#39;s day, my siblings and I got my mom a set of giant (~2.5 inches square) scrabble tiles, which spell out all the names in our family when put together correctly. We wanted to mount these in their proper arrangement on the wall. However, these tiles are just blocks of wood with letters printed on them, and there is no easy way to hang them as is.</description>
+      <guid>/projects/20181028-scrabble-tiles/</guid>
+      <description>Giant Magnetized Scrabble Tiles (the images will load somewhat slowly on this page, for now)&#xA;For Mother&#39;s day, my siblings and I got my mom a set of giant (~2.5 inches square) scrabble tiles, which spell out all the names in our family when put together correctly. We wanted to mount these in their proper arrangement on the wall. However, these tiles are just blocks of wood with letters printed on them, and there is no easy way to hang them as is.</description>
     </item>
-    
     <item>
       <title></title>
-      <link>http://example.org/projects/current/</link>
+      <link>/projects/20191003-biofrontiers/big-sim-stitches/basal-cell-carcinoma/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/projects/current/</guid>
-      <description> currently working on... I&#39;m hoping to make progress on a variety of personal projects this (2023) summer: Magnetically driven resonant fiber projection system Single mode optical fiber to laser diode pigtailing Nickel plating of optical fiber for magnetic control Growing large single crystals of Bismuth using a Czochralski-like method Remote control for six-axis positioner </description>
+      <guid>/projects/20191003-biofrontiers/big-sim-stitches/basal-cell-carcinoma/</guid>
+      <description></description>
     </item>
-    
+    <item>
+      <title></title>
+      <link>/projects/20191003-biofrontiers/big-sim-stitches/breast-carcinoma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/projects/20191003-biofrontiers/big-sim-stitches/breast-carcinoma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>/projects/20191003-biofrontiers/big-sim-stitches/lung/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/projects/20191003-biofrontiers/big-sim-stitches/lung/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>/projects/20191003-biofrontiers/big-sim-stitches/ovary-carcinoma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/projects/20191003-biofrontiers/big-sim-stitches/ovary-carcinoma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>/projects/20191003-biofrontiers/big-sim-stitches/prostate-carcinoma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/projects/20191003-biofrontiers/big-sim-stitches/prostate-carcinoma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>/projects/current/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/projects/current/</guid>
+      <description>&#xD;currently working on... I&#39;m hoping to make progress on a variety of personal projects this year (2024): Magnetically driven resonant fiber projection system&#xD;Single mode optical fiber to laser diode pigtailing&#xD;Nickel plating of optical fiber for magnetic control&#xD;Growing large single crystals of Bismuth using a Czochralski-like method&#xD;I&#39;m also currently in the progress of writing pages for the following completed projects: Yonder Dynamics - Spectrometry system for 2023 rover&#xD;Yonder Dynamics - Performance of rovers at URC 2022 and 2023 Growing large single crystals of Bismuth using a Czochralski-like method&#xD;Remote control for six-axis positioner&#xD;</description>
+    </item>
   </channel>
 </rss>

@@ -1,0 +1,171 @@
+:root {
+  --tile-width: 300px;
+  --big-tile-width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+	:root {
+	  --tile-width: 300px;
+	  --big-tile-width: 300px;
+	}
+}
+
+#caption {
+ background-color: rgba( 0, 0, 0, .5);
+ margin-left: 60px;
+ margin-right: 10px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ padding: 10px;
+ border-style: solid;
+ border-width: 0px 1px;
+ border-color: #dddddd;
+}
+#caption p{
+ position: relative;
+ font-family: "Montserrat";
+ font-weight: 400;
+ font-size: 12px;
+ text-align: center;
+ color: white;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+#banner {
+ z-index: 1;
+ height: 40px;
+ width: 100%;
+ background-color: rgba(80, 80, 80, .5); 
+ padding-top: 5px;
+ padding-left: 50px;
+ position: fixed;
+ vertical-align: bottom;
+ white-space: nowrap;
+}
+#banner h1{
+ font-family: "Montserrat";
+ font-weight: 200;
+ font-size: 30px;
+ color: white;
+ text-align: left;
+ line-height: 0;
+}
+#banner h2{
+ font-family: "Montserrat";
+ font-size: 20px;
+ color: white;
+ text-align: center;
+ line-height: 0;
+}
+
+#thumbnail {
+ height: var(--tile-width);
+ width: var(--tile-width);
+ max-width: 480px;
+ position: relative;
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ font-size: 0px;
+ display: inline-block;
+}
+
+#thumbnail img {
+ height: var(--tile-width);
+ width: var(--tile-width);
+ top: 50%;
+ left: 50%;
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ object-fit: cover;
+ overflow: hidden;
+ outline: none;
+}
+
+#thumbnail span {
+ position: absolute;
+ width: var(--tile-width);
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: white;
+ font-family: "Julius Sans One";
+ font-size: 30px;
+ text-align: center;
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+}
+#thumbnail:hover img {
+ filter: brightness(.3);
+}
+#thumbnail:hover span {
+ font-size: 30px;
+}
+#thumbnail-dyn-label span {
+ position: absolute;
+ width: var(--tile-width);
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: white;
+ font-family: "Julius Sans One";
+ font-size: 0px;
+ text-align: center;
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+}
+#thumbnail-dyn-label:hover img {
+ filter: brightness(.3);
+}
+#thumbnail-dyn-label:hover span {
+ font-size: 30px;
+}
+#banner-thumbnail {
+ height: var(--big-tile-width);
+ width: var(--big-tile-width);
+ position: relative;
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ font-size: 0px;
+ display: inline-block;
+}
+
+#banner-thumbnail img {
+ height: var(--big-tile-width);
+ width: var(--big-tile-width);
+ top: 50%;
+ left: 50%;
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ object-fit: cover;
+ overflow: hidden;
+ outline: none;
+}
+
+#banner-thumbnail span {
+ position: absolute;
+ width: var(--big-tile-width);
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: white;
+ font-family: "Julius Sans One";
+ font-size: 30px;
+ text-align: center;
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+}
+#banner-thumbnail:hover img {
+ filter: brightness(.3);
+}
+
+#grid {
+ margin-left: 0px;
+ text-align: center;
+}

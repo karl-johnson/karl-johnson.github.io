@@ -2,156 +2,176 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/photos/Panoramas/20181007/</loc>
+    <loc>/panoramas/20181007/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20180901/</loc>
+    <loc>/panoramas/20180901/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20200102/</loc>
+    <loc>/panoramas/20200102/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20230610/</loc>
+    <loc>/panoramas/20230610/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20190515/</loc>
+    <loc>/panoramas/20190515/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20201125/</loc>
+    <loc>/panoramas/20201125/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20211119/</loc>
+    <loc>/panoramas/20220320/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20201121/</loc>
+    <loc>/panoramas/20211119/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20201008/</loc>
+    <loc>/panoramas/20201121/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20201231/</loc>
+    <loc>/panoramas/20201008/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20201227/</loc>
+    <loc>/panoramas/20201231/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20191230/</loc>
+    <loc>/panoramas/20201227/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20201204/</loc>
+    <loc>/panoramas/20191230/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20210612/</loc>
+    <loc>/panoramas/20201204/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20201113/</loc>
+    <loc>/panoramas/20210612/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20200927/</loc>
+    <loc>/panoramas/20201113/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20211023/</loc>
+    <loc>/panoramas/20200927/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20210715/</loc>
+    <loc>/panoramas/20211023/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20230616/</loc>
+    <loc>/panoramas/20210715/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20210618/</loc>
+    <loc>/panoramas/20230616/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20210722/</loc>
+    <loc>/panoramas/20210618/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20220820/</loc>
+    <loc>/panoramas/20240113/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20220117/</loc>
+    <loc>/panoramas/20210722/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20201205/</loc>
+    <loc>/panoramas/20240614/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20221125/</loc>
+    <loc>/panoramas/20231210/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20210710/</loc>
+    <loc>/panoramas/20220820/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20210705/</loc>
+    <loc>/panoramas/20220117/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20231014/</loc>
+    <loc>/panoramas/20201205/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20210713/</loc>
+    <loc>/panoramas/20221125/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20210910/</loc>
+    <loc>/panoramas/20210710/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20210307/</loc>
+    <loc>/panoramas/20210705/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20211002/</loc>
+    <loc>/panoramas/20231014/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20201217/</loc>
+    <loc>/panoramas/20210713/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20210227/</loc>
+    <loc>/panoramas/20210910/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20210223/</loc>
+    <loc>/panoramas/20210307/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20210327/</loc>
+    <loc>/panoramas/20211002/</loc>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/20220912/</loc>
+    <loc>/panoramas/20201217/</loc>
   </url><url>
-    <loc>http://example.org/projects/20230930-gpseek/</loc>
+    <loc>/panoramas/20210227/</loc>
+  </url><url>
+    <loc>/panoramas/20210223/</loc>
+  </url><url>
+    <loc>/panoramas/20210327/</loc>
+  </url><url>
+    <loc>/panoramas/20220912/</loc>
+  </url><url>
+    <loc>/panoramas/20231230/</loc>
+  </url><url>
+    <loc>/projects/20230930-hns-testing/</loc>
     <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>/</loc>
     <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/photos/Panoramas/</loc>
+    <loc>/panoramas/</loc>
     <lastmod>2023-09-03T14:03:13-07:00</lastmod>
   </url><url>
-    <loc>http://example.org/photos/</loc>
-    <lastmod>2023-09-03T14:03:13-07:00</lastmod>
-  </url><url>
-    <loc>http://example.org/contact/</loc>
+    <loc>/contact/</loc>
     <lastmod>2023-09-02T22:33:59-07:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20201201-panoramic-head/20221025/</loc>
+    <loc>/projects/20230610-yonder-rover/</loc>
+    <lastmod>2023-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/projects/20201201-panoramic-head/20221025/</loc>
     <lastmod>2022-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20201201-panoramic-head/20201201/</loc>
+    <loc>/projects/20201201-panoramic-head/20201201/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20201201-panoramic-head/</loc>
+    <loc>/projects/20201201-panoramic-head/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20191227-lens-repair/</loc>
+    <loc>/projects/20191227-lens-repair/</loc>
     <lastmod>2019-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20191003-biofrontiers/</loc>
+    <loc>/projects/20191003-biofrontiers/</loc>
     <lastmod>2019-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20191003-biofrontiers/big-sim-stitches/</loc>
+    <loc>/projects/20191003-biofrontiers/big-sim-stitches/</loc>
     <lastmod>2019-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20191003-biofrontiers/cells/</loc>
+    <loc>/projects/20191003-biofrontiers/cells/</loc>
     <lastmod>2019-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20191003-biofrontiers/needles/</loc>
+    <loc>/projects/20191003-biofrontiers/needles/</loc>
     <lastmod>2019-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20191003-biofrontiers/neurons/</loc>
+    <loc>/projects/20191003-biofrontiers/neurons/</loc>
     <lastmod>2019-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20181228-campus-board/</loc>
+    <loc>/projects/20181228-campus-board/</loc>
     <lastmod>2018-12-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20181228-campus-board/board-part-2/</loc>
+    <loc>/projects/20181228-campus-board/board-part-2/</loc>
     <lastmod>2018-12-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20181228-campus-board/holds/</loc>
+    <loc>/projects/20181228-campus-board/holds/</loc>
     <lastmod>2018-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20181228-campus-board/board-part-1/</loc>
+    <loc>/projects/20181228-campus-board/board-part-1/</loc>
     <lastmod>2018-12-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20180930-arduino-timelapse/</loc>
+    <loc>/projects/20180930-arduino-timelapse/</loc>
     <lastmod>2018-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/</loc>
+    <loc>/projects/</loc>
     <lastmod>2018-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20180916-12-stop-nd/</loc>
+    <loc>/projects/20180930-arduino-timelapse/build/</loc>
+    <lastmod>2018-09-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/projects/20180916-12-stop-nd/</loc>
     <lastmod>2018-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20180930-arduino-timelapse/build/</loc>
+    <loc>/projects/20180930-arduino-timelapse/use-and-code/</loc>
     <lastmod>2018-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/20180930-arduino-timelapse/use-and-code/</loc>
-    <lastmod>2018-09-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://example.org/projects/20181028-scrabble-tiles/</loc>
+    <loc>/projects/20181028-scrabble-tiles/</loc>
     <lastmod>1970-08-22T06:50:28-07:00</lastmod>
   </url><url>
-    <loc>http://example.org/projects/current/</loc>
+    <loc>/projects/20191003-biofrontiers/big-sim-stitches/basal-cell-carcinoma/</loc>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>/projects/20191003-biofrontiers/big-sim-stitches/breast-carcinoma/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>/projects/20191003-biofrontiers/big-sim-stitches/lung/</loc>
+  </url><url>
+    <loc>/projects/20191003-biofrontiers/big-sim-stitches/ovary-carcinoma/</loc>
+  </url><url>
+    <loc>/projects/20191003-biofrontiers/big-sim-stitches/prostate-carcinoma/</loc>
+  </url><url>
+    <loc>/projects/current/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/tags/</loc>
   </url>
 </urlset>

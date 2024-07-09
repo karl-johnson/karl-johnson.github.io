@@ -1,0 +1,80 @@
+#sidebar {
+ top: 0;
+ font-family: "Julius Sans One";
+ font-size: 0px;
+ text-align: left;
+ color: white;
+ width: 50px;
+ height: 100%;
+ position: fixed;
+ z-index: 2;
+ background-color: rgba(80, 80, 80, .5); 
+ text-align: center;
+}
+
+#sidebar img{
+ max-width: 30px;
+}
+#sidebar a{
+ text-decoration: none;
+}
+.icon {
+ text-align: center;
+}
+.icon img{
+ padding: 10px;
+}
+.icon:hover{
+ background-color: white;
+ width: 250px;
+ height: 50px;
+ text-align: left;
+ font-size: 30px;
+}
+.icon:hover img{
+ filter:brightness(0);
+ margin-left: 0px;
+}
+.icon:hover span{
+ padding-right:10px;
+ padding-bottom: 5px;
+ vertical-align: 10px;
+}
+.h-icon {
+ text-align: center;
+}
+.h-icon img{
+ padding: 10px;
+}
+.h-icon:hover{
+ background-color: white;
+ width: 50px;
+ height: 50px;
+ text-align: left;
+ font-size: 30px
+}
+.h-icon:hover img{
+ filter:brightness(0);
+ margin-left: 0px;
+}
+.h-icon:hover span{
+ padding-right:10px;
+ vertical-align: 10px;
+}
+.side-text {
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+ width: 0px;
+ height: 0px;
+ color: black;
+ text-align: right;
+}
+.side-text:hover {
+ width: 100px;
+ height: 100px;
+ font-family: "Julius Sans One";
+ font-size: 30px;
+ margin: 0px;
+ border: 0px;
+}

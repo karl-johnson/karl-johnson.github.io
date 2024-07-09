@@ -1,0 +1,257 @@
+/* Base styles */
+:root {
+  --primary-color: #66ff66;
+  --background-color: #191919;
+  --text-color: white;
+}
+
+::selection {
+  color: black;
+  background: var(--primary-color);
+}
+
+body {
+  font-size: 16px;
+  background: var(--background-color);
+  background-image: url("format_images/background_tile.png");
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* Content styles */
+#code, #content, #content-blue-edges, #caption {
+  background-color: rgba(0, 0, 0, .8);
+  margin: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 0 1px;
+}
+
+#code {
+  border-color: var(--primary-color);
+}
+
+#content {
+  border-color: var(--primary-color);
+}
+
+#content-blue-edges {
+  border-color: #66ccff;
+}
+
+#caption {
+  border-color: #dddddd;
+}
+
+#code p, #content p, #content-blue-edges p, #caption p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  margin: 10px 0;
+}
+
+#code p {
+  font-family: 'Oxygen Mono', monospace;
+  white-space: pre-wrap;
+}
+
+h1, h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+/* Banner styles */
+#banner {
+  z-index: 1;
+  background-color: rgba(80, 80, 80, .5);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#banner h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+#banner h2 {
+  font-size: 18px;
+  margin: 5px 0 0;
+}
+
+/* Sidebar styles */
+#sidebar {
+  font-family: "Julius Sans One", sans-serif;
+  width: 50px;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  background-color: rgba(80, 80, 80, .5);
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+
+#sidebar:hover {
+  width: 200px;
+}
+
+.icon, .h-icon {
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.icon img, .h-icon img {
+  max-width: 30px;
+  vertical-align: middle;
+}
+
+.icon span, .h-icon span {
+  display: none;
+  margin-left: 10px;
+}
+
+#sidebar:hover .icon span, #sidebar:hover .h-icon span {
+  display: inline-block;
+}
+
+/* Thumbnail styles */
+#thumbnail, #banner-thumbnail {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
+}
+
+#thumbnail {
+  width: 300px;
+  height: 300px;
+}
+
+#banner-thumbnail {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+#thumbnail img, #banner-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#thumbnail span, #banner-thumbnail span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#thumbnail:hover img, #banner-thumbnail:hover img {
+  filter: brightness(0.3);
+}
+
+#thumbnail:hover span, #banner-thumbnail:hover span {
+  opacity: 1;
+}
+
+/* Grid styles */
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+/* Footer styles */
+#footer {
+  background-color: rgba(50,50,50, .6);
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 50px;
+  right: 0;
+}
+
+#footer p {
+  font-size: 10px;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  #sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #sidebar:hover {
+    width: 100%;
+  }
+
+  .icon, .h-icon {
+    padding: 5px;
+  }
+
+  #content, #content-blue-edges, #code, #caption {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  #banner {
+    position: static;
+  }
+
+  #footer {
+    left: 0;
+  }
+
+  #grid {
+    margin-left: 0;
+  }
+
+  #thumbnail, #banner-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+}
