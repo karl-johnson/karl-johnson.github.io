@@ -6,9 +6,7 @@ disablePathToLower = true
   panoURL = 'https://karl-johnson.b-cdn.net/'
   
 	email_url = "mailto://k@rljohnson.net"
-	discord_url = "https://discord.com/users/1e15"
 	github_url = "https://github.com/karl-johnson"
-	gitlab_url = "https://gitlab.com/karl-johnson"
 	instagram_url = "https://www.instagram.com/ka.rljohnson/"
 	linkedin_url = "https://www.linkedin.com/in/kadotrljohnson/"
 	youtube_url = "https://www.youtube.com/channel/UCKy3BTUfhKNZBpajQm80lBw/"

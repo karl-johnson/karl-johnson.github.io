@@ -10,19 +10,41 @@
  z-index: 2;
  background-color: rgba(80, 80, 80, .5); 
  text-align: center;
+ 
+   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-#sidebar img{
+#sidebar img, svg{
  max-width: 30px;
 }
 #sidebar a{
  text-decoration: none;
 }
+
+a.social {
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+}
+
 .icon {
  text-align: center;
 }
 .icon img{
  padding: 10px;
+}
+.icon svg{
+ width: 30px;
+ height: 30px;
+ padding: 10px;
+ color: white;
+ text-decoration: none;
+}
+
+.icon:hover svg{
+	color: black;
 }
 .icon:hover{
  background-color: white;
