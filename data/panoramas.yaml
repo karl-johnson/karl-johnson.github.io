@@ -177,8 +177,9 @@
       dziPath: 20211119/20211119.dzi
     - 
       date: 20220117
-      title: "Culp Valley"
+      title: "Culp Valley (Windy Boulders)"
       resolution: 3937708908
+      is360: true
     - 
       date: 20220820
       title: "UCSD Seventh College"
@@ -205,7 +206,7 @@
       resolution: 4.6488e9
     - 
       date: 20231210
-      title: "Culp Valley Overlook"
+      title: "Culp Valley Overlook 1"
       resolution: 3.650e9
     - 
       date: 20231230
@@ -227,3 +228,8 @@
       date: 20240804
       title: "Mount San Jacinto"
       resolution: 3.7e9
+    -
+      date: 20250209
+      title: "Culp Valley Overlook 2"
+      resolution: 6.1e9
+      is360: true
